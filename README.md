@@ -8,7 +8,7 @@ Prácticas Diseño Interfaces de Usuario (Tema: .... )
 
 
 
-Actualizado: 14/01/2026
+Actualizado: 04/03/2026
 
 
 
@@ -23,7 +23,7 @@ Actualizado: 14/01/2026
 >>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
 >>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
 
-Grupo: DIUx_AABB.  Curso: 2025/26 
+Grupo: DIU3_ColesterMax.  Curso: 2025/26 
 
 Nombre del Proyecto: 
 
@@ -38,12 +38,8 @@ Logotipo:
 >>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
 
 Miembros y nombre del equipo:
- * :bust_in_silhouette:  AA     :octocat:     
- * :bust_in_silhouette:  BB     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
-
------ 
+ * :bust_in_silhouette:  David Bacas Posadas     :octocat:     
+ * :bust_in_silhouette:  Pablo Hernández Ibáñez     :octocat:
 
 <br>
 
@@ -57,22 +53,30 @@ Miembros y nombre del equipo:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 1.a User Reseach Plan
 ![Método UX](img/Competitive.png) 
 -----
+#### Briefing
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+##### 1. Contexto
+En los últimos años se ha producido un gran aumento de interés proveniente de la persona común hacia el sector de la comida rápida "gourmet". Basta "scrollear" en las redes sociales o pasear por cualquier ciudad para encontrar locales especializados en el concepto "fast food" al puro estilo estadounidense. Este crecimiento no solo responde a la oferta gastronómica, sino del mismo modo a la experiencia del usuario asociada al consumo, donde un buen diseño del espacio y presencia digital es clave en la actualidad.
+
+##### 2. Problema y objetivos
+Ante este incremento considerable de demanda, es necesario comprender lo que realmente buscan los usuarios interesados en este sector. Nuestro objetivo es identificar qué factores pueden incrementar el consumo, así como los elementos que pueden llegar a generar desorientación o frustración al usuario durante la interacción digital. Se pretende analizar los aspectos más valorados por los usuarios y las distintas oportunidades de mejora en comparación con otras propuestas del sector.
+
+##### 3. Conclusión
+Para ello, se emplearán distintos métodos para el análisis. El desarrollo detallado del análisis y planificación se puede consultar en el siguiente documento: [UserResearchPlan.md](./UserResearchPlan.md)
+
+#### User Research Plan
 
 
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+Compararemos uno de nuestros restaurantes objeto de estudio (Goiko) con algunos competidores presentes en Granada, como lo son Guifer 2.0 o Mumama:
 
+![Competitive Analysis](P1/Realizacion/CompetitorAnalysis.png) 
 
 ### 1.c Personas
 ![Método UX](img/Persona.png) 

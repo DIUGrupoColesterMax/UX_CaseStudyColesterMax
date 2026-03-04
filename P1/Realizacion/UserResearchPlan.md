@@ -32,6 +32,8 @@ Procuraremos que los usuarios resuelvan las siguientes tareas:
 
 - "Investigar el horario de apertura/cierre así como la localización".
 
+#### 5. Conclusión
+
 
 
 
