@@ -12,13 +12,7 @@
 
 #### 2. Metodología (The "How")
 
-INdicar las herramientas a utilizar, p.e. 
 
-- **Cuantitativa:** El cuestionario **SUS** para obtener una nota numérica.
-- **Biométrica:** **Eye Tracking** para ver el comportamiento visual real.
-- **Comparativa:** El **A/B Testing** para medir tu diseño contra el de tu compañero.
-
-Se pueden relacionar sobre el panorama de **Framework tridimensional de métodos UX** de Christian Rohrer (attitudinal Vs Behavioural, Qualitative VS Quantitative, Context of Use)
 
 #### 3. Perfil de los Participantes (The "Who")
 
@@ -38,11 +32,6 @@ Procuraremos que los usuarios resuelvan las siguientes tareas:
 
 - "Investigar el horario de apertura/cierre así como la localización".
 
-#### 5. Cronograma y Entregables
-
-> Simplemente enumerar los entrañables que se suponen se van a desarrollar con el estudio
-
-- p.e.  **Usability Report** final con las recomendaciones de mejora.
 
 
 
