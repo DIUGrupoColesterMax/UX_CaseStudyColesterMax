@@ -1,27 +1,6 @@
 # DIU26
-Prácticas Diseño Interfaces de Usuario (Tema: .... ) 
-
-* [Guiones de prácticas](GuionesPracticas/)
-* [Guía para crea tu Case Study](Guia_CaseStudy.md)
-* Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
-
-
-
 
 Actualizado: 04/03/2026
-
-
-
-
-## Paso 0 My UX-Case Study
-![Método UX](img/caseStudy.png) 
------
-
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
-
-
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
 
 Grupo: DIU3_ColesterMax.  Curso: 2025/26 
 
@@ -54,7 +33,6 @@ Miembros y nombre del equipo:
 ## Paso 1. UX User & Desk Research & Analisis 
 
 ### 1.a User Reseach Plan
-![Método UX](img/Competitive.png) 
 -----
 #### Briefing
 
@@ -71,15 +49,12 @@ Para ello, se emplearán distintos métodos para el análisis. El desarrollo det
 
 
 ### 1.b Competitive Analysis
-![Método UX](img/Competitive.png) 
 -----
 
 Compararemos uno de nuestros restaurantes objeto de estudio (Goiko) con algunos competidores presentes en Granada, como lo son Guifer 2.0 o Mumama:
-
 ![Competitive Analysis](P1/Realizacion/CompetitorAnalysis.png) 
 
 ### 1.c Personas
-![Método UX](img/Persona.png) 
 -----
 
 >>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
