@@ -52,7 +52,7 @@ Para ello, se emplearán distintos métodos para el análisis. El desarrollo det
 -----
 
 Compararemos uno de nuestros restaurantes objeto de estudio (Goiko) con algunos competidores presentes en Granada, como lo son Guifer 2.0 o Mumama:
-![Competitive Analysis](P1/Realizacion/CompetitorAnalysis.png) 
+![Competitive Analysis](P1/Realizacion/CompetitiveAnalysis.png) 
 
 Como podemos observar, Goiko se mantiene en la línea de los competidores en este ámbito, sin embargo, existen otros restaurantes cuyo diseño es más interesante y, desde nuestro punto de vista, acertado a la hora de hacer una página web que trate de mostrar que tienen en carta 
 
