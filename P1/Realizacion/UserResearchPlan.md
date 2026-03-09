@@ -12,7 +12,10 @@
 
 #### 2. Metodología (The "How")
 
+Principalmente, nos basaremos en métodos cuantitativos, que nos permitan comprobar la percepción que tiene el cliente de las diferentes webs que vamos a estudiar. Por ejemplo:
 
+- **Cuantitativa**: Encuestas que nos permitan comprender los que opinan los clientes sobre el uso y la facilidad de navegación de las webs a estudiar.
+- **Comparativa**: El A/B Testing para medir el diseño de la web a estudiar con otras de competidores.
 
 #### 3. Perfil de los Participantes (The "Who")
 
@@ -32,9 +35,11 @@ Procuraremos que los usuarios resuelvan las siguientes tareas:
 
 - "Investigar el horario de apertura/cierre así como la localización".
 
-#### 5. Conclusión
+#### 5. Cronograma y entregables
 
-
+- **Competitive Analysis**
+- **Analisis de usuarios y experiencias (Person y Journey Map)**
+- **Usability Review**
 
 
 
