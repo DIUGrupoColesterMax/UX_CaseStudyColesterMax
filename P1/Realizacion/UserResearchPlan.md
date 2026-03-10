@@ -14,8 +14,8 @@
 
 Principalmente, nos basaremos en métodos cuantitativos, que nos permitan comprobar la percepción que tiene el cliente de las diferentes webs que vamos a estudiar. Por ejemplo:
 
-- **Cuantitativa**: Encuestas que nos permitan comprender los que opinan los clientes sobre el uso y la facilidad de navegación de las webs a estudiar.
-- **Comparativa**: El A/B Testing para medir el diseño de la web a estudiar con otras de competidores.
+- **Cuantitativa**: **Encuestas** que nos permitan comprender lo que opinan los clientes sobre el uso y la facilidad de navegación de las webs a estudiar. **Analítica web** para medir parámetros como la cantidad de clics, el tiempo en página, la tasa de rebote, entre otros.
+- **Comparativa**: **El A/B Testing** para medir el diseño de la web a estudiar con otras de competidores. **Pruebas de usabilidad comparativas** con las que podamos observar y comparar como distintos usuarios completan tareas en la web a estudiar versus otras, registrando  errores, tiempo y facilidad de uso. (Aunque ambos métodos aporten datos mixtos, nos centraremos en el comportamiento, actitudes y los problemas)
 
 #### 3. Perfil de los Participantes (The "Who")
 
