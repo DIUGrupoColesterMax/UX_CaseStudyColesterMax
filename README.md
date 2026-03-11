@@ -45,8 +45,6 @@ Ante este incremento considerable de demanda, es necesario comprender lo que rea
 ##### 3. Conclusión
 Para ello, se emplearán distintos métodos para el análisis. El desarrollo detallado del análisis y planificación se puede consultar en el siguiente documento: [UserResearchPlan.md](./UserResearchPlan.md)
 
-#### User Research Plan
-
 
 ### 1.b Competitive Analysis
 -----
@@ -56,27 +54,72 @@ Compararemos uno de nuestros restaurantes objeto de estudio (Goiko) con algunos 
 
 Como podemos observar, Goiko se mantiene en la línea de los competidores en este ámbito, sin embargo, existen otros restaurantes cuyo diseño es más interesante y, desde nuestro punto de vista, acertado a la hora de hacer una página web que trate de mostrar que tienen en carta 
 
-### 1.c Personas
+### 1.c Personas 
 -----
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+Vamos a presentar a dos personas con perfiles distintos que encontrarán alguna situación para interactuar con Goiko.
+
+#### Valeria Jiménez
+
+Una mujer sofisticada y crítica. Es una persona social y extrovertida a la que le gusta reunirse con amigos y disfrutar de planes en grupo, aunque siempre valora aprovechar bien su tiempo.
+
+![Persona 1: Valeria](P1/Realizacion/Persona1.png) 
+
+#### Borja Parrilla
+
+Hombre con traje, gafas y calvo, interesado en el mundo de las criptomonedas. Tiene un perfil profesional y directo, y suele estar pendiente de oportunidades y planes a futuro. En internet es conocido como SaselCripto, donde crea contenido centrado principalmente en reseñas y críticas sobre distintos temas.
+
+
+![Persona 2: Sasel](P1/Realizacion/Persona2.png) 
+
+
 
 
 ### 1.d User Journey Map
 ![Método UX](img/JourneyMap.png) 
 ----
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+A continuación se analizarán dos escenarios distintos, uno por persona, donde se pondrá a prueba la usabilidad de Goiko en nuevos usuarios.
+
+#### Valeria Jiménez: Primera vez pidiendo en Goiko
+
+El escenario es el siguiente: *"Sábado noche. Está con dos amigas en su piso de diseño. Deciden pedir Goiko. Valeria toma el mando porque "vosotras no sabéis pedir bien". Se pelea con la web porque no encuentra información sobre los alérgenos de cada hamburguesa. Acaba frustrada porque la web no ofrece información sobre las promociones disponibles en ese momento, además de no encontrar los precios de cada hamburguesa."*
+
+En este escenario encontramos una situación habitual: una "cena con amigas". Se refleja perfectamente cómo Valeria, una usuaria cualquiera con exigencias, llega a frustrarse al intentar hacer el pedido y usar las promociones de Goiko.
+
+![Journey Map: Valeria](./P1/Realizacion/UserJourneyMapPersona1.png)
+
+#### Borja Parrilla: Primera vez reservando en Goiko
+
+El escenario es el siguiente: *"Borja está dedicando estos últimos años mayormente a internet, con contenido algo polémico debido a reseñas y críticas exigentes. Ha anunciado en X que está preparando una serie de videos sobre “fast food gourmet” de su zona, por lo que está preparando una oleada de pedidos y reservas para buscar algo de lo que quejarse. En primera instancia encuentra Goiko como hamburguesería cercana y decide explorar sus opciones."*
+
+En este escenario se presenta una situación no tan cotidiana, donde un creador de contenido busca alguna pega o un muy buen servicio para hacer un video al respecto. Borja, centrado en internet y en reseñas exigentes, es este creador de contenido que busca material sobre “fast food gourmet”. Su frustración potencial surge al explorar Goiko, ya que espera información clara y completa y una experiencia mas o menos amena para reservar.
+
+![Journey Map: Borja](./P1/Realizacion/UserJourneyMapPersona2.png)
 
 
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
 ----
+Se ha realizado el siguiente **Usability Review** sobre Goiko:
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+- [PDF](./P1/Realizacion/Usability-review-Goiko.pdf)
+- [Excel](./P1/Realizacion/Usability-review-Goiko.xls)
+
+La pagina web de Goiko ha obtenido un 49 sobre 100, con la valoración: ***Poor***
+
+![rating goiko](./img/rating-goiko.png)
+
+La página de Goiko cuenta con una buena estética y, aunque dependa de gustos, está claro que, una vez haces tu primer clic para acceder a la página principal, sabes de qué va a ir el tema desde el primer momento. Nada más entrar, te encuentras con un video de una hamburguesa girando junto con bastantes logotipos y arte de fondo relacionado con el entorno 'fast food'. Y, aunque lo nombrado sea positivo, se ve rápido que no está bien optimizada: el video y las animaciones presentes, como la de la moneda, parecen afectar bastante al rendimiento de la página, teniendo que esperar más de lo normal en la mayoría de casos.
+
+Del mismo modo, podemos nombrar la vaga organización que tiene la página. El mero hecho de buscar en la carta ya es difícil, pero a la hora de navegar es aún peor. Encontramos una navegabilidad sin jerarquía clara que puede llegar a desorientar al usuario: al entrar en la carta, te encuentras un menú por cada tipo de producto y, dentro de este, otro submenú con todos los productos de ese tipo que, al clicar, nos lleva a otro menú donde encontramos escasa información sobre ese producto. Es decir, pasas más tiempo clicando y buscando que leyendo ingredientes, aspectos del producto y más información, si es que existe.
+
+Por último, cabe mencionar que las otras opciones, como fidelización o promociones, no se alejan mucho de lo ya mencionado, además de contar con formularios, como el de reserva, con opciones poco intuitivas y sin contar con los mensajes de error necesarios.
+
+Así, queda claro que la página de Goiko sabe expresar su producto y estilo de buena manera, pero se queda corta a la hora de la usabilidad, llegando a desesperar a los usuarios a la hora de realizar una actividad básica en ese tipo de páginas, como ver la carta, hacer una reserva o un pedido de comida.
+
+### 1.f Briefing
+----
 
 <br>
 
