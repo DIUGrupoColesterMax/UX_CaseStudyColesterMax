@@ -42,7 +42,7 @@ En los últimos años se ha producido un gran aumento de interés proveniente de
 ##### 2. Problema y objetivos
 Ante este incremento considerable de demanda, es necesario comprender lo que realmente buscan los usuarios interesados en este sector. Nuestro objetivo es identificar qué factores pueden incrementar el consumo, así como los elementos que pueden llegar a generar desorientación o frustración al usuario durante la interacción digital. Se pretende analizar los aspectos más valorados por los usuarios y las distintas oportunidades de mejora en comparación con otras propuestas del sector.
 
-##### 3. Conclusión
+##### 3. Procedimiento
 Para ello, se emplearán distintos métodos para el análisis. El desarrollo detallado del análisis y planificación se puede consultar en el siguiente documento: [UserResearchPlan.md](./UserResearchPlan.md)
 
 
@@ -76,8 +76,6 @@ Hombre con traje, gafas y calvo, interesado en el mundo de las criptomonedas. Ti
 
 
 ### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
-----
 
 A continuación se analizarán dos escenarios distintos, uno por persona, donde se pondrá a prueba la usabilidad de Goiko en nuevos usuarios.
 
@@ -99,8 +97,7 @@ En este escenario se presenta una situación no tan cotidiana, donde un creador 
 
 
 ### 1.e Usability Review
-![Método UX](img/usabilityReview.png) 
-----
+
 Se ha realizado el siguiente **Usability Review** sobre Goiko:
 
 - [PDF](./P1/Realizacion/Usability-review-Goiko.pdf)
@@ -118,8 +115,17 @@ Por último, cabe mencionar que las otras opciones, como fidelización o promoci
 
 Así, queda claro que la página de Goiko sabe expresar su producto y estilo de buena manera, pero se queda corta a la hora de la usabilidad, llegando a desesperar a los usuarios a la hora de realizar una actividad básica en ese tipo de páginas, como ver la carta, hacer una reserva o un pedido de comida.
 
-### 1.f Briefing
-----
+### 1.f Conclusión
+
+Como comentamos al comienzo de la práctica, nuestro objetivo era análizar las carencias que nuestro restaurante elegido, Goiko, tiene con respecto al estandar de mercado.
+Así, hemos comprobado la funcionalidad y accesibilidad de la pagina web principal que posee el restaurante,
+análizando en profundidad la facilidad de navegación en esta y la usabilidad de la interfaz que posee.
+
+Como conclusión, y aprovechando para introducir lo que se busca resolver en prácticas posteriores, hemos comprobado que la página de Goiko tiene carencias importantes. Recuerda un poco a un cajón de sastre, podemos encontar todos los elementos necesarios para que una web de un restaurante de hamburguesas funcione correctamente, sin embargo, están organizados de forma cuestionable, llegando incluso a repetir elementos en varias ocasiones a lo largo de la web.
+
+Así, durante la práctica hemos simulado usos cotidianos que los usuarios podrían hacer de la página, y como hemos podido observar, puede llegar a resultar frustante o confuso, nublando la experiencia que ofrece Goiko.
+
+Por todo esto, y dado que vemos que la web tiene potencial, ya sea por su estética, o por que nos parece que el restaurante tiene mucho que ofrecer, trataremos de corregir los errores que hemos ido comentando durante este documento, buscando ofrecer una experiencia más limpia y satisfactoria.
 
 <br>
 
