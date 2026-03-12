@@ -115,7 +115,7 @@ Por último, cabe mencionar que las otras opciones, como fidelización o promoci
 
 Así, queda claro que la página de Goiko sabe expresar su producto y estilo de buena manera, pero se queda corta a la hora de la usabilidad, llegando a desesperar a los usuarios a la hora de realizar una actividad básica en ese tipo de páginas, como ver la carta, hacer una reserva o un pedido de comida.
 
-### 1.f Conclusión
+### 1.f Briefing final
 
 Como comentamos al comienzo de la práctica, nuestro objetivo era análizar las carencias que nuestro restaurante elegido, Goiko, tiene con respecto al estandar de mercado.
 Así, hemos comprobado la funcionalidad y accesibilidad de la pagina web principal que posee el restaurante,
