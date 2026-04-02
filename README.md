@@ -148,14 +148,14 @@ Así, podemos sacar dos conclusiones:
 
 #### Feedback Capture Grid
 
-Así, podemos representar las conclusiones en el siguiente gráfico, de forma que nos sirva para ajustar el enfoque que va a tomar nuestra solución:
+Podemos representar las conclusiones en el siguiente gráfico, de forma que nos sirva para ajustar el enfoque que va a tomar nuestra solución:
 
 ![Feedback Capture Grid](P2/Realizacion/FeedbackCaptureGrid.png)
 
 
 ### 2.b ScopeCanvas
 
-Así, hemos decidido que una solución práctica y efectiva a nuestro problema sería un Buscador/HUB que permita al cliente acceder a todo lo que necesite en el meno número de clicks posibles, además de ofrecer una experiencia interáctiva para aquellos clientes que entren a la web de forma recurrente, registrando sus funciones más usadas y tratando de análizar sus gustos para proporcionarle recomendaciones acertadas.
+Hemos decidido que una solución práctica y efectiva a nuestro problema sería un Buscador/HUB que permita al cliente acceder a todo lo que necesite en el meno número de clicks posibles, además de ofrecer una experiencia interáctiva para aquellos clientes que entren a la web de forma recurrente, registrando sus funciones más usadas y tratando de análizar sus gustos para proporcionarle recomendaciones acertadas.
 
 ![Propuesta de valor](P2/Realizacion/ScopeCanvasPropuestaValor.png)
 
