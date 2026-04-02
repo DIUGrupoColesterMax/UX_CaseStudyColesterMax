@@ -162,10 +162,21 @@ Hemos decidido que una solución práctica y efectiva a nuestro problema sería 
 El Scope Canvas define al buscador como el eje central para mejorar la UX de Goiko. Al atacar directamente los puntos de dolor (lentitud y falta de información), transformamos una necesidad técnica en una ventaja competitiva: una web intuitiva que prioriza el tiempo del cliente y maximiza las oportunidades de venta para el negocio.
 
 ### 2.b User Flow (task) analysis 
-![Método UX](img/Sitemap.png) 
------
+#### Task Matrix
+En nuestra matriz de tareas de usuario, hemos recopilado las funciones principales que el buscador/HUB debe ofrecer para mitigar la lentitud y la falta de información detectadas. Hemos definido tres grupos clave basados en las **Personas** de la P1 y los roles del sistema, asignando prioridades de **Alta (H)**, **Media (M)** y **Baja (L)**, o usando un guión **(-)** si la acción no aplica.
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+| Acción / Función | Cliente Ocasional (Valeria) | Crítico / Influencer (Borja) | Administrador |
+| :--- | :---: | :---: | :---: |
+| **Búsqueda rápida de alérgenos y filtros** | H | H | L |
+| **Consultar precios actualizados por local** | H | H | M |
+| **Buscador de restaurantes cercanos** | H | M | - |
+| **Reserva de mesa rápida e intuitiva** | M | H | L |
+| **Visualización de carta (interactiva/rápida)** | H | H | M |
+| **Acceso a promociones y cupones activos** | H | M | M |
+| **Gestión de perfiles y preferencias de dieta** | M | H | L |
+| **Realizar pedido** | H | M | - |
+| **Consultar historial de pedidos/reseñas** | L | H | L |
+| **Publicar ofertas temporales o locales** | - | - | H |
 
 
 ### 2.c IA: Sitemap + Labelling 
