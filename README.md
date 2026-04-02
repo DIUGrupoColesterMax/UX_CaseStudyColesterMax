@@ -178,6 +178,15 @@ En nuestra matriz de tareas de usuario, hemos recopilado las funciones principal
 | **Consultar historial de pedidos/reseñas** | L | H | L |
 | **Publicar ofertas temporales o locales** | - | - | H |
 
+Para mostrar el funcionamiento amigable del HUB, hemos querido representar el flujo de dos tareas que suelen ser comunes entre los usuarios: la reserva para grupos grandes y la realización de pedidos ya efectuados anteriormente.
+
+#### Reserva para grupos grandes:
+![TaskFlow Reserva grupos grandes](P2/Realizacion/UserFlowReservaGrupoGrande.png)
+
+#### Pedidos efectuados anteriormente:
+![TaskFlow Pedidos repetidos](P2/Realizacion/UserFlowPedirOtraVez.png)
+
+
 
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
