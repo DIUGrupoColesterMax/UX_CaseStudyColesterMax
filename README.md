@@ -6,11 +6,11 @@ Grupo: DIU3_ColesterMax.  Curso: 2025/26
 
 Nombre del Proyecto: 
 
->>> Decida el nombre corto de su propuesta en la práctica 2 
+>>> Goiko Finder
 
 Descripción: 
 
->>> Describa la idea de su producto en la práctica 2 
+>>> Encuentra tus platos favoritos, ingredientes o tu restaurante Goiko más cercano en un instante. Todo lo que buscas para calmar el hambre, en un solo lugar.
 
 Logotipo: 
 
@@ -131,32 +131,35 @@ Por todo esto, y dado que vemos que la web tiene potencial, ya sea por su estét
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
 ### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
-![Método UX](img/feedback-capture-grid.png) 
-----
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+#### Empathy Mapping
 
+Para poder sacar conclusiones sobre que problema debemos de afrontar a la hora de realizar nuestra mejora de la web,  debemos analizar como ha sido la experiencia de uso de las dos personas análizadas durante la práctica anterior, de forma que comprendamos como se han sentido durante el uso de esta:
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+![Empathy Mapping Persona 1](P2/Realizacion/EmpathyCustomerMapPersona1.png)
+
+![Empathy Mapping persona 2](P2/Realizacion/EmpathyMap2.png)
+
+Así, podemos sacar dos conclusiones:
+
+* Aunque al usuario le gusta la marca, la web es muy lenta y laberintica, lo que nubla bastante la experiencia del restaurante.
+* Existe una falta de información clara. Hay una gran dificultad para encontrar alérgenos, precios, etc.
+
+#### Feedback Capture Grid
+
+Así, podemos representar las conclusiones en el siguiente gráfico, de forma que nos sirva para ajustar el enfoque que va a tomar nuestra solución:
+
+![Feedback Capture Grid](P2/Realizacion/FeedbackCaptureGrid.png)
 
 
 ### 2.b ScopeCanvas
-![Método UX](img/ScopeCanvas.png)
-----
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
+Así, hemos decidido que una solución práctica y efectiva a nuestro problema sería un Buscador/HUB que permita al cliente acceder a todo lo que necesite en el meno número de clicks posibles, además de ofrecer una experiencia interáctiva para aquellos clientes que entren a la web de forma recurrente, registrando sus funciones más usadas y tratando de análizar sus gustos para proporcionarle recomendaciones acertadas.
 
+![Propuesta de valor](P2/Realizacion/ScopeCanvasPropuestaValor.png)
 
+El Scope Canvas define al buscador como el eje central para mejorar la UX de Goiko. Al atacar directamente los puntos de dolor (lentitud y falta de información), transformamos una necesidad técnica en una ventaja competitiva: una web intuitiva que prioriza el tiempo del cliente y maximiza las oportunidades de venta para el negocio.
 
 ### 2.b User Flow (task) analysis 
 ![Método UX](img/Sitemap.png) 
