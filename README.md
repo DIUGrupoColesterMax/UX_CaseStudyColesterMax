@@ -203,6 +203,21 @@ Término | Significado
 ![Método UX](img/Wireframes.png) 
 -----
 
+#### Esbozo a papel
+
+En primer lugar, se ha realizado un esbozo en papel, donde, de forma sencilla, se ha marcado la estructura del espacio que se va a realizar. Las zonas nuevas o más destacadas se han señalado con letras, las cuales serán explicadas más adelante.
+
+![Esbozo a papel](P2/Realizacion/Prototipo.jpg)
+
+Los elementos que encontramos son:
+- A: Barra de búsqueda del HUB.
+- B: Filtros de búsqueda (ej. precio, alergenos, ingredientes, etc).
+- C: Lo último visitado/pedido por el usuario.
+- D: Toda la información, será filtrada al usar los elementos A y B.
+- E: Marcados como favoritos por el usuario.
+- F: Otras opciones (ej. reservar, pedir, ver locales, etc).
+- G: Promociones, podrán cambiar según el usuario.
+
 >>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
 
 <br>
