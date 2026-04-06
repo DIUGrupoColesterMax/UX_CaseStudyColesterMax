@@ -192,11 +192,17 @@ Para mostrar el funcionamiento amigable del HUB, hemos querido representar el fl
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+Asi quedaría la navegación por nuestro sistema:
+![Sitemap](P2/Realizacion/SiteMap.png)
 
 Término | Significado     
 | ------------- | -------
-  Login  | acceder a plataforma
+  HUB  | Nodo central. Aqui estará toda la información de Goiko
+  Favoritos de la carta | Productos guardados que estén en la carta
+  Opciones favoritas | Servicios que ofrece Goiko (ej. reserva, pedido, etc)
+  Reserva de nuevo | Botón rapido para repetir una reserva en el mismo local y con el mismo numero de personas (configurable)
+  Pedir de nuevo | Botón rápido de realización del último pedido o uno reciente
+  Mi Goiko | Perfil de Goiko, donde se podrán gestionar algunas configuraciones del HUB
 
 
 ### 2.d Wireframes
