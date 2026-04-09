@@ -213,7 +213,9 @@ Término | Significado
 
 En primer lugar, se ha realizado un esbozo en papel, donde, de forma sencilla, se ha marcado la estructura del espacio que se va a realizar. Las zonas nuevas o más destacadas se han señalado con letras, las cuales serán explicadas más adelante.
 
-![Esbozo a papel](P2/Realizacion/Prototipo.jpg)
+Se ha de decir que este no será el resultado final, si no el boceto a papel que se ha decidido usar para guiarnos al usar *FIGMA*, por lo que puede que el resultado o alguna distribución se vea ligeramente alterado mas adelante en el wireframe.
+
+![Esbozo a papel](P2/Realizacion/Prototipo(Boceto).jpg)
 
 Los elementos que encontramos son:
 - A: Barra de búsqueda del HUB.
@@ -224,7 +226,9 @@ Los elementos que encontramos son:
 - F: Otras opciones (ej. reservar, pedir, ver locales, etc).
 - G: Promociones, podrán cambiar según el usuario.
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+#### Wireframe (FIGMA)
+
+#### GRID LAYOUT
 
 <br>
 
