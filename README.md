@@ -192,7 +192,7 @@ Para mostrar el funcionamiento amigable del HUB, hemos querido representar el fl
 ![Método UX](img/labelling.png) 
 ----
 
-Asi quedaría la navegación por nuestro sistema:
+Asi quedaría la navegación por nuestro sistema: Se ha querido indicar la estructura del *HUB*, del mismo modo, como hijos de este tenemos algunas de las funciones nuevas, como **Historial** o **Favoritos** con sus propias opciones, junto con las nuevas ópciones del perfil de Goiko **Mi Goiko**, donde con la implementación del *HUB* podrás gestionar tus favoritos y tu historial de busqueda.
 ![Sitemap](P2/Realizacion/SiteMap.png)
 
 Término | Significado     
