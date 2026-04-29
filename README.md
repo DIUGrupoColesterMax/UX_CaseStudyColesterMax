@@ -13,7 +13,9 @@ Descripción:
 > > > Encuentra tus platos favoritos, ingredientes o tu restaurante Goiko más cercano en un instante. Todo lo que buscas para calmar el hambre, en un solo lugar.
 
 Logotipo:
+<br>
 <img src="./P3/Realizacion/Logo.jpg" width="30%">
+<br>
 Miembros y nombre del equipo:
 
 - :bust_in_silhouette: David Bacas Posadas :octocat:
