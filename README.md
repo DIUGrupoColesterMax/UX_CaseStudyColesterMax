@@ -247,9 +247,11 @@ Con esta propuesta hemos logrado eliminar las barreras entre el hambre del clien
 
 ## ![Método UX](img/moodboard.png)
 
-> > > Diseño visual con una guía de estilos visual (moodboard)
-> > > Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
-> > > Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+Se ha desarrollado un moodboard de Goiko Finder que recoge colores corporativos, tipografías, texturas y referencias visuales de la experiencia de consumo en restaurantes. Este recurso sirve de base para mantener coherencia estética, estado de ánimo y la identidad visual del proyecto en las siguientes fases de diseño.
+
+#### Moodboard GoikoFinder
+
+![Moodboard](P3/Realizacion/MoodBoard(ColesterMax).png)
 
 ### 3.b Landing Page
 
