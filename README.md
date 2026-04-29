@@ -13,8 +13,7 @@ Descripción:
 > > > Encuentra tus platos favoritos, ingredientes o tu restaurante Goiko más cercano en un instante. Todo lo que buscas para calmar el hambre, en un solo lugar.
 
 Logotipo:
-
-> > > Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+![Logotipo del equipo](P3/Realizacion/Logo.jpg)
 
 Miembros y nombre del equipo:
 
@@ -245,19 +244,18 @@ Con esta propuesta hemos logrado eliminar las barreras entre el hambre del clien
 
 ### 3.a Moodboard
 
-## ![Método UX](img/moodboard.png)
-
 Se ha desarrollado un moodboard de Goiko Finder que recoge colores corporativos, tipografías, texturas y referencias visuales de la experiencia de consumo en restaurantes. Este recurso sirve de base para mantener coherencia estética, estado de ánimo y la identidad visual del proyecto en las siguientes fases de diseño.
 
 #### Moodboard GoikoFinder
 
-![Moodboard](P3/Realizacion/MoodBoard(ColesterMax).png)
+![Moodboard](<P3/Realizacion/MoodBoard(ColesterMax).png>)
 
 ### 3.b Landing Page
 
-## ![Método UX](img/landing-page.png)
+Partiendo del moodboard anterior, hemos desarrollado la siguiente Landing Page aplicando todo lo diseñado anteriormente, con ayuda de Figma Make.
+Puedes acceder a ella en el siguiente enlace:
 
-> > > Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+[Landing Page Goiko Find](https://strong-wallow-45887007.figma.site)
 
 ### 3.c Guidelines
 
