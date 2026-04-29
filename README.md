@@ -16,6 +16,7 @@ Logotipo:
 <br>
 <img src="./P3/Realizacion/Logo.jpg" width="30%">
 <br>
+<br>
 Miembros y nombre del equipo:
 
 - :bust_in_silhouette: David Bacas Posadas :octocat:
