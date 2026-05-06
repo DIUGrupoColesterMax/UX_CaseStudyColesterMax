@@ -255,16 +255,68 @@ Se ha desarrollado un moodboard de Goiko Finder que recoge colores corporativos,
 ### 3.b Landing Page
 
 Partiendo del moodboard anterior, hemos desarrollado la siguiente Landing Page aplicando todo lo diseñado anteriormente, con ayuda de Figma Make.
+
+![Landing Page Goiko Find](P3/Realizacion/LandingPageGoiko.png)
+
 Puedes acceder a ella en el siguiente enlace:
 
 [Landing Page Goiko Find](https://strong-wallow-45887007.figma.site)
 
-### 3.c Guidelines
+### 3.c Design System
 
-## ![Método UX](img/guidelines.png)
+Una vez realizada la landing page usando Figma Make, debemos crear un design system ligero.
 
-> > > Estudio de Guidelines y explicación de los Patrones IU a usar
-> > > Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado.
+#### Foundations
+
+Para ello, primero hemos creado las "Foundations" de nuestra organización, de forma que nos permita crear una idéntidad visual consistente y marcada.
+
+Se puede observar en la siguiente imágen.
+
+#### Atomic design
+
+Partiendo de la idéntidad creada anteriormente, debemos definir todos los átomos/moleculas/organismos que han sido utilizados anteriormente por Figma Make para crear la landing page.
+
+##### Átomos
+
+Son las unidades mínimas e indivisibles de la interfaz. En nuestra landing page serán las siguientes:
+
+- Tipografía: Los diferentes estilos de fuente.
+
+- Colores: La paleta de la marca.
+
+- Iconos: El icono de la estrella, el reloj, el calendario en el botón de reserva y los iconos de redes sociales del footer.
+
+- Botones: Que permitirán la navegación por nuestra web.
+
+- Buscador: La funcionalidad principal de nuestro Goiko Finder, el elemento que permite buscar en el HUB.
+
+- Imágenes: Las fotografías individuales de las hamburguesas y los locales.
+
+##### Moléculas
+
+Es la unión de dos o más átomos que forman una unidad funcional simple. En nuestra landing page serán las siguientes:
+
+- Rating de Restaurante: El conjunto del icono de la estrella + la puntuación numérica.
+
+- Item de Lista de Precios: El nombre de la bebida + su precio.
+
+- Filtro Individual: Cuadrado con icono + etiqueta de texto.
+
+##### Organismos
+
+Grupos de moléculas y/o átomos que forman una sección compleja y distintiva de la interfaz. En nuestra landing page serán las siguientes:
+
+- Card de Restaurante: Incluye la imagen del local, el nombre, el rating, la distancia y el botón de reserva.
+
+- Card de Producto: La sección de la hamburguesa con su foto, descripción, alérgenos, precio y botón.
+
+- Header: Contiene el logo de Goiko, el buscador central y el acceso al perfil de usuario.
+
+- Sidebar de Información: El bloque que agrupa "Acceso Rápido", "Tendencias Hoy" y "Ofertas Activas".
+
+- Sección de Mapa: El contenedor de Google Maps con las tarjetas de ubicación superpuestas.
+
+- Footer: El bloque negro inferior con logos sociales, el sello de la marca y los enlaces legales.
 
 ### 3.d Mockup
 
