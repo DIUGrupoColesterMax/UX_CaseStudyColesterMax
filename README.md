@@ -290,13 +290,13 @@ Son las unidades mínimas e indivisibles de la interfaz. En nuestra landing page
 
 - Botones rectangulares: Que permitirán la navegación por nuestra web.
 
+- Botón de icono: Que permitirá acceder al perfil, redes, etc.
+
 - Buscador: La funcionalidad principal de nuestro Goiko Finder, el elemento que permite buscar en el HUB.
 
 - Imágenes: Las fotografías individuales de las hamburguesas y los locales.
 
 - Filtro Individual: Cuadrado con icono y etiqueta de texto.
-
-- Botón de perfil: Que permitirá acceder al perfil del cliente.
 
 - Rating de Restaurante: El conjunto del icono de la estrella y la puntuación numérica.
 
