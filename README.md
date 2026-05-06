@@ -270,7 +270,15 @@ Una vez realizada la landing page usando Figma Make, debemos crear un design sys
 
 Para ello, primero hemos creado las "Foundations" de nuestra organización, de forma que nos permita crear una idéntidad visual consistente y marcada.
 
-Se puede observar en la siguiente imágen.
+Constan de lo siguiente:
+
+- Tipografía: Los diferentes estilos de fuente.
+
+- Colores: La paleta de la marca.
+
+- Iconos: El icono de la estrella, el reloj, el calendario en el botón de reserva y los iconos de redes sociales del footer.
+
+Se puede observar el nuestro en la siguiente imágen:
 
 #### Atomic design
 
@@ -280,31 +288,33 @@ Partiendo de la idéntidad creada anteriormente, debemos definir todos los átom
 
 Son las unidades mínimas e indivisibles de la interfaz. En nuestra landing page serán las siguientes:
 
-- Tipografía: Los diferentes estilos de fuente.
-
-- Colores: La paleta de la marca.
-
-- Iconos: El icono de la estrella, el reloj, el calendario en el botón de reserva y los iconos de redes sociales del footer.
-
-- Botones: Que permitirán la navegación por nuestra web.
+- Botones rectangulares: Que permitirán la navegación por nuestra web.
 
 - Buscador: La funcionalidad principal de nuestro Goiko Finder, el elemento que permite buscar en el HUB.
 
 - Imágenes: Las fotografías individuales de las hamburguesas y los locales.
 
+- Filtro Individual: Cuadrado con icono y etiqueta de texto.
+
+- Botón de perfil: Que permitirá acceder al perfil del cliente.
+
+- Rating de Restaurante: El conjunto del icono de la estrella y la puntuación numérica.
+
 ##### Moléculas
 
 Es la unión de dos o más átomos que forman una unidad funcional simple. En nuestra landing page serán las siguientes:
 
-- Rating de Restaurante: El conjunto del icono de la estrella + la puntuación numérica.
+- Lista: Tanto de bebidas, de botones, etc.
 
-- Item de Lista de Precios: El nombre de la bebida + su precio.
+- Tarjeta de úbicación: Presente en el mapa, que indica información sobre los distintos restaurantes.
 
-- Filtro Individual: Cuadrado con icono + etiqueta de texto.
+- Tarjeta de actualizaciones: Que notifican diversa información.
 
 ##### Organismos
 
 Grupos de moléculas y/o átomos que forman una sección compleja y distintiva de la interfaz. En nuestra landing page serán las siguientes:
+
+- Caja contenedor: Correspondiente a los distintos contenedores del menu lateral (acceso rápido, bebidas, etc).
 
 - Card de Restaurante: Incluye la imagen del local, el nombre, el rating, la distancia y el botón de reserva.
 
