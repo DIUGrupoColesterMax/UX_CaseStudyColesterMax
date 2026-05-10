@@ -332,7 +332,35 @@ Grupos de moléculas y/o átomos que forman una sección compleja y distintiva d
 
 ## ![Método UX](img/mockup.png)
 
-> > > Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+El prototipo final de **Goiko Finder** se ha diseñado como un **HUB centralizado** que elimina la navegación laberíntica de la web original. Se prioriza la carga rápida de elementos y el acceso directo a la información crítica (precios, alérgenos y reservas) mediante una interfaz limpia y estructurada.
+
+A continuación, se presentan las capturas del Layout en acción:
+
+#### 1. HUB Principal
+
+Es el eje del proyecto. Integra en una sola vista las tendencias del día, acceso rápido a servicios, buscador global y un feed de actualizaciones en tiempo real (restaurantes disponibles, nuevos platos, etc).
+
+![Página Principal - Goiko Finder](./P3/Realizacion/PaginaPrincipal-GoikoFinder.png)
+
+#### 2. Localizador de Restaurantes
+Se ha simplificado la visualización de locales, mostrando de forma clara la distancia, el tiempo de espera estimado, rating según antiguos clientes, menú de cada local y la posibilidad de realizar una reserva al instante.
+
+![Listado de Restaurantes](./P3/Realizacion/Restaurantes-GoikoFinder.png)
+
+#### 3. Carta de Productos e Ingredientes (Menu de hamburguesas)
+La nueva carta permite un filtrado instantáneo por categorías (Veggie, Picantes, Clásicas, etc). Se añade una pestaña nueva para cada hamburguesa, cada una con su descripción, lista de ingredientes, calorias e información interesante para el cliente. Además, agregamos la posibilidad de pedir en un clic la hamburguesa seleccionada, evitando navegación o clics innecesarios del cliente.
+
+![Carta de Hamburguesas](./P3/Realizacion/Hamburguesas-GoikoFinder.png)
+
+#### 4. Selección de Menús y Complementos
+Vista detallada de las opciones de menú y la lista de precios de bebidas y complementos, organizada para facilitar la toma de decisiones rápida durante el proceso de pedido. En este menún no se busca el apartado visual, si no un sitio donde se pueda encontrar lo que el cliente quiere sin andarse con rodeos.
+
+![Menú Completo](./P3/Realizacion/Menu-GoikoFinder.png)
+
+#### 5. Centro de Ofertas y Promociones
+Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día, descuentos de estudiante, etc), permitiendo al usuario aplicar cupones directamente a su sesión y estar al dia de las nuevas ofertas de Goiko.
+
+![Panel de Ofertas](./P3/Realizacion/Ofertas-GoikoFinder.png)
 
 <br>
 
