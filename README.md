@@ -260,7 +260,7 @@ Partiendo del moodboard anterior, hemos desarrollado la siguiente Landing Page a
 
 Puedes acceder a ella en el siguiente enlace:
 
-[Landing Page Goiko Find](https://strong-wallow-45887007.figma.site)
+[Landing Page Goiko Find](https://visor-fabric-08824324.figma.site)
 
 ### 3.c Design System
 
