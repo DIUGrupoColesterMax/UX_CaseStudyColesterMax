@@ -330,9 +330,10 @@ Grupos de moléculas y/o átomos que forman una sección compleja y distintiva d
 
 ### 3.d Mockup
 
-## ![Método UX](img/mockup.png)
-
 El prototipo final de **Goiko Finder** se ha diseñado como un **HUB centralizado** que elimina la navegación laberíntica de la web original. Se prioriza la carga rápida de elementos y el acceso directo a la información crítica (precios, alérgenos y reservas) mediante una interfaz limpia y estructurada.
+
+Puedes encontrar la web desplegada mediante figma en el siguiente enlace:
+[Prototipo interactivo de Goiko Finder](https://visor-fabric-08824324.figma.site/)
 
 A continuación, se presentan las capturas del Layout en acción:
 
@@ -361,6 +362,13 @@ Vista detallada de las opciones de menú y la lista de precios de bebidas y comp
 Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día, descuentos de estudiante, etc), permitiendo al usuario aplicar cupones directamente a su sesión y estar al dia de las nuevas ofertas de Goiko.
 
 ![Panel de Ofertas](./P3/Realizacion/Ofertas-GoikoFinder.png)
+
+### 3.e Briefing
+- **Proceso y Diseño:** Partimos de un Moodboard estético para escalar a un Design System atómico, culminando en un Mockup interactivo. Su gran punto fuerte es transformar la web laberíntica original en un HUB centralizado, permitiendo al usuario acceder en un solo clic a información crítica (precios, alérgenos, ofertas y reservas).
+
+- **Herramientas (IA/Tools):** Utilizamos la IA de Figma Make para autogenerar ágilmente la Landing Page inicial basándose en nuestras directrices visuales, lo que ahorró muchísimo tiempo. A partir de ahí, usamos Figma con total efectividad para desglosar esos elementos en componentes reutilizables y construir el prototipo final.
+
+**Conclusión:** Pasamos de una página lenta y confusa a una herramienta personal ultrarrápida. El diseño ahora prioriza el tiempo del cliente, eliminando la frustración y facilitando directamente las ventas.
 
 <br>
 
