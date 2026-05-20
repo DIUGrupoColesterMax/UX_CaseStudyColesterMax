@@ -344,26 +344,31 @@ Es el eje del proyecto. Integra en una sola vista las tendencias del día, acces
 ![Página Principal - Goiko Finder](./P3/Realizacion/PaginaPrincipal-GoikoFinder.png)
 
 #### 2. Localizador de Restaurantes
+
 Se ha simplificado la visualización de locales, mostrando de forma clara la distancia, el tiempo de espera estimado, rating según antiguos clientes, menú de cada local y la posibilidad de realizar una reserva al instante.
 
 ![Listado de Restaurantes](./P3/Realizacion/Restaurantes-GoikoFinder.png)
 
 #### 3. Carta de Productos e Ingredientes (Menu de hamburguesas)
+
 La nueva carta permite un filtrado instantáneo por categorías (Veggie, Picantes, Clásicas, etc). Se añade una pestaña nueva para cada hamburguesa, cada una con su descripción, lista de ingredientes, calorias e información interesante para el cliente. Además, agregamos la posibilidad de pedir en un clic la hamburguesa seleccionada, evitando navegación o clics innecesarios del cliente.
 
 ![Carta de Hamburguesas](./P3/Realizacion/Hamburguesas-GoikoFinder.png)
 
 #### 4. Selección de Menús y Complementos
+
 Vista detallada de las opciones de menú y la lista de precios de bebidas y complementos, organizada para facilitar la toma de decisiones rápida durante el proceso de pedido. En este menún no se busca el apartado visual, si no un sitio donde se pueda encontrar lo que el cliente quiere sin andarse con rodeos.
 
 ![Menú Completo](./P3/Realizacion/Menu-GoikoFinder.png)
 
 #### 5. Centro de Ofertas y Promociones
+
 Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día, descuentos de estudiante, etc), permitiendo al usuario aplicar cupones directamente a su sesión y estar al dia de las nuevas ofertas de Goiko.
 
 ![Panel de Ofertas](./P3/Realizacion/Ofertas-GoikoFinder.png)
 
 ### 3.e Briefing
+
 - **Proceso y Diseño:** Partimos de un Moodboard estético para escalar a un Design System atómico, culminando en un Mockup interactivo. Su gran punto fuerte es transformar la web laberíntica original en un HUB centralizado, permitiendo al usuario acceder en un solo clic a información crítica (precios, alérgenos, ofertas y reservas).
 
 - **Herramientas (IA/Tools):** Utilizamos la IA de Figma Make para autogenerar ágilmente la Landing Page inicial basándose en nuestras directrices visuales, lo que ahorró muchísimo tiempo. A partir de ahí, usamos Figma con total efectividad para desglosar esos elementos en componentes reutilizables y construir el prototipo final.
@@ -372,9 +377,24 @@ Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día
 
 <br>
 
-## Paso 4. Pruebas de Evaluación
+## Paso 4. Componentes UI
 
-### 4.a Reclutamiento de usuarios
+### Paso 4.a Crear app react partiendo de Figma Make
+
+Hemos mejorado la aplicación Goiko Finder implementada con Figma Make en la aplicación anterior, refactorizando el codigo para que se usen correctamente los componentes que se han creado usando React. Puedes encontrar la aplicación en el siguiente enlace:
+
+[Prototipo final de Goiko Finder](https://visor-fabric-08824324.figma.site)
+
+```python
+def saludar(nombre):
+    print(f"¡Hola, {nombre}!")
+
+saludar("Mundo")
+```
+
+## Paso 5. Pruebas de Evaluación
+
+### 5.a Reclutamiento de usuarios
 
 ## ![Método UX](img/usability-testing.png)
 
@@ -388,13 +408,13 @@ Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día
 | User3's name | M / 35    | Abogado    | Baja    | Emocional    | móvil      | B    |
 | User4's name | H / 18    | Estudiante | Media   | Racional     | Web        | B    |
 
-### 4.b Diseño de las pruebas
+### 5.b Diseño de las pruebas
 
 ## ![Método UX](img/usability-testing.png)
 
 > > > Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
 
-### 4.c Cuestionario SUS
+### 5.c Cuestionario SUS
 
 ## ![Método UX](img/Survey.png)
 
@@ -403,13 +423,13 @@ Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día
 > > > Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
 > > > Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados
 
-### 4.d A/B Testing
+### 5.d A/B Testing
 
 ## ![Método UX](img/ABtesting.png)
 
 > > > Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
 
-### 4.e Aplicación del método Eye Tracking
+### 5.e Aplicación del método Eye Tracking
 
 ## ![Método UX](img/eye-tracking.png)
 
@@ -421,7 +441,7 @@ Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día
 
 > > > gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione)
 
-### 4.f Usability Report de B
+### 5.f Usability Report de B
 
 ## ![Método UX](img/usability-report.png)
 
@@ -429,22 +449,6 @@ Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día
 > > > Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
 
 > > > Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
-
-<br>
-
-## Paso 5. Exportación y Documentación
-
-### 5.a Exportación a HTML/React
-
-## ![Método UX](img/usabilityReview.png)
-
-> > > Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-### 5.b Documentación con Storybook
-
-## ![Método UX](img/usabilityReview.png)
-
-> > > Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
 
 <br>
 
