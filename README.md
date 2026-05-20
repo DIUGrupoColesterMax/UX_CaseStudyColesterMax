@@ -385,6 +385,8 @@ Hemos mejorado la aplicación Goiko Finder implementada con Figma Make en la apl
 
 [Prototipo final de Goiko Finder](https://visor-fabric-08824324.figma.site)
 
+#### Implementación de componentes en Reacts
+
 ```python
 def saludar(nombre):
     print(f"¡Hola, {nombre}!")
@@ -451,6 +453,18 @@ saludar("Mundo")
 > > > Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
 
 <br>
+
+## Anexo: Imagenes a evaluar para A/B testing
+
+A continuación, incluiremos las capturas que nos gustaria que se estudiasen para el A/B testing. Pueden encontrarse en la carpeta ImagenesAEvaluarABTesting.
+
+![Landing Page](ImagenesAEvaluarABTesting/LandingPageGoiko.png)
+
+![Menu](ImagenesAEvaluarABTesting/Menu-GoikoFinder.png)
+
+![Listado Hamburguesas](ImagenesAEvaluarABTesting/Hamburguesas-GoikoFinder.png)
+
+![Alérgenos](ImagenesAEvaluarABTesting/Alergenos.png)
 
 ## Conclusiones finales & Valoración de las prácticas
 
