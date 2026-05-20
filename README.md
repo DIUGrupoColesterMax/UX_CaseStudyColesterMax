@@ -387,13 +387,28 @@ Hemos mejorado la aplicación Goiko Finder implementada con Figma Make en la apl
 
 [Prototipo final de Goiko Finder](https://visor-fabric-08824324.figma.site)
 
-#### Implementación de componentes en Reacts
+#### Ejemplo de uso de componente RestauranteCard en la LandingPage
 
-```python
-def saludar(nombre):
-    print(f"¡Hola, {nombre}!")
-
-saludar("Mundo")
+```javascript
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+  {filteredRestaurantes.map((restaurant, idx) => (
+    <RestauranteCard
+      key={idx}
+      name={restaurant.name}
+      distance={restaurant.distance}
+      wait={restaurant.wait}
+      rating={restaurant.rating}
+      img={restaurant.img}
+      address={restaurant.address}
+      phone={restaurant.phone}
+      showButtons={true}
+      onReservar={() =>
+        window.open("https://www.goiko.com/es/reservas/", "_blank")
+      }
+      onVerMenu={() => navigate("/menu")}
+    />
+  ))}
+</div>
 ```
 
 ## Paso 5. Pruebas de Evaluación
