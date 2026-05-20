@@ -24,6 +24,8 @@ Miembros y nombre del equipo:
 
 <br>
 
+Puedes ver las imagenes para realizar el estudio de A/B testing en [Imagenes A/B testing](#anexo-imagenes-a-evaluar-para-ab-testing)
+
 # Proceso de Diseño
 
 <br>
