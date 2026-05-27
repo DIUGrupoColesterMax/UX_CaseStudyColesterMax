@@ -24,7 +24,7 @@ Miembros y nombre del equipo:
 
 <br>
 
-# *EVALUACION*
+# **EVALUACION**
 
 Puedes ver las imagenes para realizar el estudio de A/B testing en [Imagenes A/B testing](#anexo-imagenes-a-evaluar-para-ab-testing)
 
@@ -276,70 +276,77 @@ Para ello, primero hemos creado las "Foundations" de nuestra organización, de f
 
 Constan de lo siguiente:
 
-- Tipografía: Los diferentes estilos de fuente.
+- **Tipografía:** Los diferentes estilos de fuente.
 
-- Colores: La paleta de la marca.
+- **Colores:** La paleta de la marca.
 
-- Iconos: El icono de la estrella, el reloj, el calendario en el botón de reserva y los iconos de redes sociales del footer.
+- **Iconos:** El icono de la estrella, el reloj, el calendario en el botón de reserva, los iconos de redes sociales del footer, todos los necesarios para una buena organización visual.
 
-Se puede observar el nuestro en la siguiente imágen:
+Todos estos elementos se pueden ver en las siguientes imagenes:
+
+#### Iconos
+
+![Iconos](P3/Realizacion/AtomicDesing/Iconos.png)
+
+#### Colores y Tipografía
+
+![Colores y Tipografía](P3/Realizacion/AtomicDesing/Foundation.png)
 
 #### Atomic design
 
-Partiendo de la idéntidad creada anteriormente, debemos definir todos los átomos/moleculas/organismos que han sido utilizados anteriormente por Figma Make para crear la landing page.
+Partiendo de la idéntidad creada anteriormente, debemos definir todos los **átomos/moleculas/organismos** que han sido utilizados anteriormente por Figma Make para crear la landing page.
 
 ##### Átomos
 
-Son las unidades mínimas e indivisibles de la interfaz. En nuestra landing page serán las siguientes:
+Son las unidades mínimas e indivisibles de la interfaz. En nuestro caso serán:
 
 - Botones rectangulares: Que permitirán la navegación por nuestra web.
 
 - Botón de icono: Que permitirá acceder al perfil, redes, etc.
 
-- Buscador: La funcionalidad principal de nuestro Goiko Finder, el elemento que permite buscar en el HUB.
-
 - Imágenes: Las fotografías individuales de las hamburguesas y los locales.
 
-- Filtro Individual: Cuadrado con icono y etiqueta de texto.
+- Icono de Usuario: Cuadrado con el icono del usuario, realmente podria ser un botón de icono pero su estructura es distinta.
 
-- Rating de Restaurante: El conjunto del icono de la estrella y la puntuación numérica.
+- Labels: Todos los tipos de *labels* que se encontrarán en el resto de elementos.
+
+- Iconos: Los [Iconos](#iconos) previamente definidos tambien son átomos.
+
+![Atomos](P3/Realizacion/AtomicDesing/Atomos.png)
 
 ##### Moléculas
 
-Es la unión de dos o más átomos que forman una unidad funcional simple. En nuestra landing page serán las siguientes:
+Es la unión de dos o más átomos que forman una unidad funcional simple. En nuestro caso serán:
 
-- Lista: Tanto de bebidas, de botones, etc.
+- Botones compuestos: Otro tipo de botones serían aquellos que incluyen un icono, formando asi parte de las moleculas y permitiendo una guia visual para el usuario.
 
-- Tarjeta de úbicación: Presente en el mapa, que indica información sobre los distintos restaurantes.
+- Filtros: Botones compuestos en otra disposición.
 
-- Tarjeta de actualizaciones: Que notifican diversa información.
+- Barra de Navegacion: Barra formada por un icono y un label que permite la navegación por la web.
+
+- Tarjetas simples y complejas: Tarjetas de información formada por distintos átomos.
+
+- Rating: Icono mas label para el rating de hamburguesas.
+
+![Moleculas](P3/Realizacion/AtomicDesing/Moleculas.png)
 
 ##### Organismos
 
-Grupos de moléculas y/o átomos que forman una sección compleja y distintiva de la interfaz. En nuestra landing page serán las siguientes:
+Grupos de moléculas y/o átomos que forman una sección compleja y distintiva de la interfaz. En nuestro caso serán:
 
-- Caja contenedor: Correspondiente a los distintos contenedores del menu lateral (acceso rápido, bebidas, etc).
+- Tarjetas: Desde las tarjetas de información formada por listas de moleculas hasta tarjetas descriptivas de restuarantes y hamburguesas que ofrecerán información de dicho producto/servicio.
 
-- Card de Restaurante: Incluye la imagen del local, el nombre, el rating, la distancia y el botón de reserva.
+- Mapa: La landing page cuenta con un mapa de locales cercanos formado por una lista de tarjetas moleculares y átomos añadidos en su diseño.
 
-- Card de Producto: La sección de la hamburguesa con su foto, descripción, alérgenos, precio y botón.
+- Header y Footer: Podemos contar el header y el footer como organismos.
 
-- Header: Contiene el logo de Goiko, el buscador central y el acceso al perfil de usuario.
-
-- Sidebar de Información: El bloque que agrupa "Acceso Rápido", "Tendencias Hoy" y "Ofertas Activas".
-
-- Sección de Mapa: El contenedor de Google Maps con las tarjetas de ubicación superpuestas.
-
-- Footer: El bloque negro inferior con logos sociales, el sello de la marca y los enlaces legales.
+![Organismos](P3/Realizacion/AtomicDesing/Organismos.png)
 
 ### 3.d Mockup
 
-El prototipo final de **Goiko Finder** se ha diseñado como un **HUB centralizado** que elimina la navegación laberíntica de la web original. Se prioriza la carga rápida de elementos y el acceso directo a la información crítica (precios, alérgenos y reservas) mediante una interfaz limpia y estructurada.
+El prototipo final de **Goiko Finder** se ha diseñado como un **HUB centralizado** que elimina la navegación laberíntica de la web original. Se prioriza la carga rápida de elementos y el acceso directo a la información crítica (precios, alérgenos y reservas) mediante una interfaz limpia y estructurada. 
 
-Puedes encontrar la web desplegada mediante figma en el siguiente enlace:
-[Prototipo interactivo de Goiko Finder](https://visor-fabric-08824324.figma.site/)
-
-A continuación, se presentan las capturas del Layout en acción:
+Se ha de destacar que estos son prototipos no finales, los resultados se encuentran en la seccion para la [evaluación A/B testing](#anexo-imagenes-a-evaluar-para-ab-testing). A continuación, se presentan las capturas del Layout en acción:
 
 #### 1. HUB Principal
 
