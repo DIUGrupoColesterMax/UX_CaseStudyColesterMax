@@ -23,7 +23,7 @@ Miembros y nombre del equipo:
 - :bust_in_silhouette: Pablo Hernández Ibáñez :octocat:
 
 <br>
-
+# *EVALUACION*
 Puedes ver las imagenes para realizar el estudio de A/B testing en [Imagenes A/B testing](#anexo-imagenes-a-evaluar-para-ab-testing)
 
 # Proceso de Diseño
