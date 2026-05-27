@@ -308,7 +308,7 @@ Son las unidades mínimas e indivisibles de la interfaz. En nuestro caso serán:
 
 - Icono de Usuario: Cuadrado con el icono del usuario, realmente podria ser un botón de icono pero su estructura es distinta.
 
-- Labels: Todos los tipos de *labels* que se encontrarán en el resto de elementos.
+- Labels: Todos los tipos de _labels_ que se encontrarán en el resto de elementos.
 
 - Iconos: Los [Iconos](#iconos) previamente definidos tambien son átomos.
 
@@ -344,7 +344,7 @@ Grupos de moléculas y/o átomos que forman una sección compleja y distintiva d
 
 ### 3.d Mockup
 
-El prototipo final de **Goiko Finder** se ha diseñado como un **HUB centralizado** que elimina la navegación laberíntica de la web original. Se prioriza la carga rápida de elementos y el acceso directo a la información crítica (precios, alérgenos y reservas) mediante una interfaz limpia y estructurada. 
+El prototipo final de **Goiko Finder** se ha diseñado como un **HUB centralizado** que elimina la navegación laberíntica de la web original. Se prioriza la carga rápida de elementos y el acceso directo a la información crítica (precios, alérgenos y reservas) mediante una interfaz limpia y estructurada.
 
 Se ha de destacar que estos son prototipos no finales, los resultados se encuentran en la seccion para la [evaluación A/B testing](#anexo-imagenes-a-evaluar-para-ab-testing). A continuación, se presentan las capturas del Layout en acción:
 
@@ -523,38 +523,77 @@ export default function RestauranteCard({
 
 ### 5.a Reclutamiento de usuarios
 
-## ![Método UX](img/usability-testing.png)
-
 El proceso de reclutamiento sigue una estrategia mixta que combina co-evaluación con pruebas de usuarios externos:
 
 - **Co-evaluación (grupo de clase):** Al menos **3 participantes** del grupo evaluarán el **Caso A** (nuestra propuesta). Se coordina durante las sesiones de prácticas.
 - **Usuarios externos:** **7 participantes adicionales** (familiares, amigos o usuarios potenciales) a quienes se aplica el flujo completo: tareas de interacción, **Eye Tracking** y cuestionario **SUS** sobre el caso asignado (A o B).
 
-El objetivo es alcanzar **10 usuarios distintos**, distribuidos en 5 para el Caso A y 5 para el Caso B. Los datos se recogerán con **[Tally.so](https://tally.so/)** (ver apartado 5.c).
-
-Indicar para cada usuario los siguientes datos (de forma anonimizada). Mínimo 4 usuarios: 2 asignados al Caso A y 2 al Caso B:
-
-| Usuarios     | Sexo/Edad | Ocupación  | Exp.TIC | Personalidad | Plataforma | Caso |
-| ------------ | --------- | ---------- | ------- | ------------ | ---------- | ---- |
-| User1's name | H / 18    | Estudiante | Media   | Introvertido | Web        | A    |
-| User2's name | H / 18    | Estudiante | Media   | Tímido       | Web        | A    |
-| User3's name | M / 35    | Abogado    | Baja    | Emocional    | Móvil      | B    |
-| User4's name | H / 18    | Estudiante | Media   | Racional     | Web        | B    |
-
-**Protocolos de adaptación:**
-
-- **Muestra reducida:** Si no se alcanzan 10 usuarios independientes, se usará un modelo **intra-sujeto (Within-Subjects)** donde parte de los usuarios evaluarán ambos casos. Aplicar **contrabalanceo**: la mitad prueba primero el Caso A y la otra mitad primero el B para evitar sesgo por fatiga o aprendizaje.
-- **Eye Tracking reducido:** Si hay limitaciones técnicas o temporales, priorizar la prueba para un **mínimo de 3 usuarios clave**. Justificar cualquier reducción en el informe final.
+| Usuarios | Sexo/Edad | Ocupación  | Exp.TIC | Relación  | Caso | Visión   |
+| -------- | --------- | ---------- | ------- | --------- | ---- | -------- |
+| Jose     | H / 21    | Estudiante | Alta    | Compañero | A    | Gafas    |
+| Yeray    | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
+| Ares     | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Lucia    | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Usuario5 | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
+| David    | H / 22    | Estudiante | Alta    | Creador   | B    | Correcta |
+| Pablo    | H / 21    | Estudiante | Alta    | Creador   | B    | Correcta |
+| Ares     | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Lucia    | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Jose     | H / 21    | Estudiante | Alta    | Compañero | B    | Gafas    |
 
 ### 5.b Diseño de las pruebas
 
-## ![Método UX](img/usability-testing.png)
+La prueba que hemos diseñado para comprobar la usabilidad tanto de nuestro proyecto como del de nuestros compañeros es la siguiente:
 
-Las pruebas se organizan en tres bloques que se aplicarán de forma secuencial a cada participante:
+#### Protocolo de prueba — Goiko Finder (Caso A / Caso B)
 
-1. **Evaluación del sitio real (Caso A o B):** El usuario realiza tareas concretas dadas por el evaluador (ej. buscar un producto, hacer una reserva, consultar el horario). Puede ser supervisada o no supervisada; en ambos casos se registrará si el usuario necesitó ayuda. Duración estimada: 5-10 minutos.
-2. **Eye Tracking con [GazeMapping](https://github.com/mgea/gazemapping):** Sesión de seguimiento ocular sobre las páginas principales del diseño (2-3 páginas rasterizadas con [FireShot](https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=es)). Se definen previamente los **Puntos de Interés (POI)** a analizar (CTAs, logos, menús, etc.) y las tareas de navegación que realizará el usuario.
-3. **Cuestionario SUS:** Administrado al finalizar la interacción (ver apartado 5.c).
+**Duración total estimada:** 20-30 min por participante  
+**Materiales:** Ordenador con navegador, GazeMapping + FireShot, enlace al cuestionario SUS (Tally.so)
+
+---
+
+##### Bloque 1 — Evaluación del sitio (5-10 min)
+
+Evaluador lee las tareas en voz alta. Registrar: tiempo, si el usuario necesitó ayuda (Sí/No) y errores cometidos.
+
+| #   | Tarea                                                       | Éxito si…                            |
+| --- | ----------------------------------------------------------- | ------------------------------------ |
+| T1  | "Encuentra el restaurante Goiko más cercano a tu ubicación" | Llega a la info del restaurante      |
+| T2  | "Busca si tienen hamburguesa con queso sin gluten"          | Encuentra filtro o producto concreto |
+| T3  | "Consulta el horario del restaurante de [ciudad]"           | Visualiza horario correctamente      |
+
+**Registro por tarea:**
+
+| Tarea | Completada | Ayuda     | Tiempo     | Comentarios |
+| ----- | ---------- | --------- | ---------- | ----------- |
+| T1    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
+| T2    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
+| T3    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
+
+---
+
+##### Bloque 2 — Eye Tracking con GazeMapping (5-10 min)
+
+**Páginas a rasterizar con FireShot:**
+
+1. Landing / Home (lista de restaurantes)
+2. Página de menú / carta
+3. Página de detalle de restaurante
+
+**POIs definidos por página:**
+
+| Página                 | POI                                            | Hipótesis                                          |
+| ---------------------- | ---------------------------------------------- | -------------------------------------------------- |
+| Landing                | Logo, buscador, botón "Reservar", tarjetas     | ¿El usuario ve el buscador antes que las tarjetas? |
+| Menú                   | Filtros, nombre de producto, precio, alérgenos | ¿Se fija en alérgenos sin que se lo indiquen?      |
+| Detalle de restaurante | Horario, dirección, botón reserva, mapa        | ¿El CTA de reserva es visible sin scroll?          |
+
+**Tareas de navegación para Eye Tracking** (mismas que Bloque 1, T1-T2):
+
+- "Encuentra un restaurante" — captura en Landing
+- "Busca un plato" — captura en Menú
+
+---
 
 ### 5.c Cuestionario SUS
 
@@ -566,52 +605,39 @@ Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepc
 - **Recogida de datos:** El usuario rellena el cuestionario al finalizar la prueba del sitio. Asegurarse de que entiende cómo responder (escala 1-5).
 - **Análisis:** Pegar los datos JSON en **[sus.mixality.de](https://sus.mixality.de/)** para el análisis multivariable comparando ambos casos. Consultar también **[sus.tools](https://sus.tools/)** para la valoración numérica y la etiqueta lingüística.
 
-|     | PREGUNTAS                                                                                | 1   | 2   | 3   | 4   | 5   |
+**Datos demográficos** _(rellenar antes de comenzar el cuestionario)_
+
+| Campo           | Respuesta                                |
+| --------------- | ---------------------------------------- |
+| Nombre / Alias  |                                          |
+| Sexo            | ☐ H ☐ M ☐ Otro                           |
+| Edad            |                                          |
+| Ocupación       |                                          |
+| Experiencia TIC | ☐ Alta ☐ Media ☐ Baja                    |
+| Relación        | ☐ Compañero ☐ Pareja ☐ Creador ☐ Externo |
+| Caso evaluado   | ☐ A ☐ B                                  |
+| Visión          | ☐ Correcta ☐ Gafas ☐ Lentillas           |
+
+**Escala SUS** _(1 = Totalmente en desacuerdo · 5 = Totalmente de acuerdo)_
+
+| #   | Pregunta                                                                                 | 1   | 2   | 3   | 4   | 5   |
 | --- | ---------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- |
-| 1   | Creo que me gustará visitar con frecuencia este website                                  |     |     |     |     |     |
-| 2   | Encontré el website innecesariamente complejo                                            |     |     |     |     |     |
-| 3   | Pensé que era fácil utilizar este website                                                |     |     |     |     |     |
-| 4   | Creo que necesitaría del apoyo de un experto para recorrer el website                    |     |     |     |     |     |
-| 5   | Encontré las funciones del website bastante bien integradas                              |     |     |     |     |     |
-| 6   | Pensé que había demasiada inconsistencia en el website                                   |     |     |     |     |     |
-| 7   | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website |     |     |     |     |     |
-| 8   | Encontré el website muy grande al recorrerlo                                             |     |     |     |     |     |
-| 9   | Me sentí muy confiado en el manejo del website                                           |     |     |     |     |     |
-| 10  | Necesito aprender muchas cosas antes de manejarse en el website                          |     |     |     |     |     |
+| 1   | Creo que me gustará visitar con frecuencia este website                                  | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 2   | Encontré el website innecesariamente complejo                                            | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 3   | Pensé que era fácil utilizar este website                                                | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 4   | Creo que necesitaría del apoyo de un experto para recorrer el website                    | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 5   | Encontré las funciones del website bastante bien integradas                              | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 6   | Pensé que había demasiada inconsistencia en el website                                   | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 7   | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 8   | Encontré el website muy grande al recorrerlo                                             | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 9   | Me sentí muy confiado en el manejo del website                                           | ☐   | ☐   | ☐   | ☐   | ☐   |
+| 10  | Necesito aprender muchas cosas antes de manejarse en el website                          | ☐   | ☐   | ☐   | ☐   | ☐   |
 
-Adjuntar en la carpeta P5/ el excel resultante y describir la valoración personal de los resultados obtenidos. Más información sobre la [metodología SUS](http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/).
+El excel resultado podrá observarse en el siguiente enlace:
 
-### 5.d A/B Testing
+### 5.d Resultado del método Eye Tracking
 
-## ![Método UX](img/ABtesting.png)
-
-Se realizará un **estudio entre-sujetos (Between-Subjects Study)** comparando nuestra propuesta (**Caso A**) con la solución de otro equipo (**Caso B**). Los datos recogidos permiten obtener:
-
-1. **Datos demográficos** para caracterizar la población del estudio.
-2. **Métricas de uso y comportamiento**, combinando la interacción real con datos biométricos de Eye Tracking.
-3. **Percepción subjetiva**, mediante el cuestionario SUS administrado al finalizar cada prueba.
-
-El análisis final se realizará con un **análisis SUS multivariable** usando [sus.mixality.de](https://sus.mixality.de/) para comparar ambas soluciones y concluir cuál es más usable (Caso A o B), aportando los resultados en tabla de al menos 3 pruebas × 2 casos con resultado agregado global.
-
-### 5.e Aplicación del método Eye Tracking
-
-## ![Método UX](img/eye-tracking.png)
-
-Se utilizará [**GazeMapping**](https://github.com/mgea/gazemapping) para el seguimiento ocular sobre elementos visuales estáticos del diseño. Se aplica **únicamente al Caso B**. El proceso a seguir:
-
-- **Instalación local de GazeMapping** para organizar el contenido a muestrear.
-- **Rasterizar el diseño:** Capturar 2-3 páginas principales del Caso B como imágenes usando la extensión [FireShot](https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=es).
-- **Definir Puntos de Interés (POI):** Marcar los elementos clave a analizar (CTAs, logos, menús, formularios, etc.).
-- **Redactar tareas** que el usuario debe realizar durante la sesión (ej. navegación libre, localizar un CTA, encontrar el logo...).
-- **Obtener el mapa de calor (heatmap)** y extraer conclusiones sobre la jerarquía visual y la atención del usuario.
-
-Si hay limitaciones técnicas, se pueden usar alternativas como [Gaze Recorder](https://gazerecorder.com/) o [RealEye](https://www.realeye.io/es) (versión de pruebas limitada a 3 usuarios para generar heatmap).
-
-![experimento](img/experimentoET.png)
-
-> Sustituir esta imagen por una captura del experimento propio. El recurso debe subirse a la carpeta P5/.
-
-### 5.f Usability Report de B
+### 5.e Usability Report de B
 
 ## ![Método UX](img/usability-report.png)
 
@@ -623,11 +649,11 @@ Usar la **plantilla** [Usability-report-template](https://github.com/mgea/UX_Cas
 - **Análisis de Eye Tracking** (Datos Biométricos)
 - **Auditoría de Accesibilidad:** Evaluación WCAG 2.1/2.2 nivel AA (norma UNE-EN 301549) con herramientas automáticas como **Lighthouse** y **WAVE**, clasificando al menos 2-3 problemas identificados en las 4 categorías:
 
-| **Categoría**    | **Qué analizar**                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------- |
-| **Perceptible**  | Contraste de colores, texto alternativo en imágenes (`alt`), subtítulos.              |
-| **Operable**     | Navegación por teclado, tiempo suficiente para leer, evitar destellos.                |
-| **Comprensible** | Idioma de la página definido, formularios claros, errores fáciles de corregir.        |
+| **Categoría**    | **Qué analizar**                                                                       |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| **Perceptible**  | Contraste de colores, texto alternativo en imágenes (`alt`), subtítulos.               |
+| **Operable**     | Navegación por teclado, tiempo suficiente para leer, evitar destellos.                 |
+| **Comprensible** | Idioma de la página definido, formularios claros, errores fáciles de corregir.         |
 | **Robusto**      | Código limpio (HTML válido) para que los lectores de pantalla funcionen correctamente. |
 
 - **Conclusiones y Recomendaciones** (Actionable Insights)
@@ -649,6 +675,9 @@ A continuación, incluiremos las capturas que nos gustaria que se estudiasen par
 ![Listado Hamburguesas](ImagenesAEvaluarABTesting/Hamburguesas-GoikoFinder.png)
 
 ![Alérgenos](ImagenesAEvaluarABTesting/Alergenos.png)
+
+Como se ha realizado el despliegue, puede acceder a la pagina en el siguiente enlace:
+[Prototipo final de Goiko ](https://visor-fabric-08824324.figma.site)
 
 ## Conclusiones finales & Valoración de las prácticas
 
