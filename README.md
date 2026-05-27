@@ -556,11 +556,11 @@ La prueba que hemos diseñado para comprobar la usabilidad tanto de nuestro proy
 
 Las tareas a realizar serán las siguientes:
 
-| #   | Tarea                                                       | Éxito si…                            |
-| --- | ----------------------------------------------------------- | ------------------------------------ |
-| T1  | "Encuentra el restaurante Goiko más cercano a tu ubicación" | Llega a la info del restaurante      |
-| T2  | "Busca si tienen hamburguesa con queso sin gluten"          | Encuentra filtro o producto concreto |
-| T3  | "Consulta el horario del restaurante de [ciudad]"           | Visualiza horario correctamente      |
+| #   | Tarea                                                   | Éxito si…                            |
+| --- | ------------------------------------------------------- | ------------------------------------ |
+| T1  | "Busca qué hamburguesas tienen disponibles en el menú"  | Visualiza el listado de hamburguesas |
+| T2  | "Busca si tienen hamburguesa con queso sin gluten"      | Encuentra filtro o producto concreto |
+| T3  | "Encuentra los ingredientes de la hamburguesa Mexicana" | Visualiza los ingredientes del plato |
 
 Almacenando de ellas los siguientes datos:
 
@@ -576,41 +576,22 @@ Almacenando de ellas los siguientes datos:
 
 ###### Resultados del bloque 1
 
-_(✓ = completada · ✗ = no completada · A = necesitó ayuda · — = no aplica)_
+_(✓ = completada · ✗ = no completada · — = no aplica)_
 
-| Usuario  | Caso | T1 Éxito | T1 Ayuda | T1 Tiempo | T2 Éxito | T2 Ayuda | T2 Tiempo | T3 Éxito | T3 Ayuda | T3 Tiempo |
-| -------- | ---- | :------: | :------: | :-------: | :------: | :------: | :-------: | :------: | :------: | :-------: |
-| Jose     | A    |          |          |           |          |          |           |          |          |           |
-| Yeray    | A    |          |          |           |          |          |           |          |          |           |
-| Usuario5 | A    |          |          |           |          |          |           |          |          |           |
-| Ares     | A    |          |          |           |          |          |           |          |          |           |
-| Lucia    | A    |          |          |           |          |          |           |          |          |           |
-| David    | B    |          |          |           |          |          |           |          |          |           |
-| Pablo    | B    |          |          |           |          |          |           |          |          |           |
-| Ares     | B    |          |          |           |          |          |           |          |          |           |
-| Lucia    | B    |          |          |           |          |          |           |          |          |           |
-| Jose     | B    |          |          |           |          |          |           |          |          |           |
+| Usuario  | Caso | T1 Éxito | T1 Tiempo | T2 Éxito | T2 Tiempo | T3 Éxito | T3 Tiempo |
+| -------- | ---- | :------: | :-------: | :------: | :-------: | :------: | :-------: |
+| Jose     | A    |          |           |          |           |          |           |
+| Yeray    | A    |          |           |          |           |          |           |
+| Usuario5 | A    |          |           |          |           |          |           |
+| Ares     | A    |          |           |          |           |          |           |
+| Lucia    | A    |          |           |          |           |          |           |
+| David    | B    |          |           |          |           |          |           |
+| Pablo    | B    |          |           |          |           |          |           |
+| Ares     | B    |          |           |          |           |          |           |
+| Lucia    | B    |          |           |          |           |          |           |
+| Jose     | B    |          |           |          |           |          |           |
 
 ##### Bloque 2 — Eye Tracking con GazeMapping (5-10 min)
-
-**Páginas a rasterizar con FireShot:**
-
-1. Landing / Home (lista de restaurantes)
-2. Página de menú / carta
-3. Página de detalle de restaurante
-
-**POIs definidos por página:**
-
-| Página                 | POI                                            | Hipótesis                                          |
-| ---------------------- | ---------------------------------------------- | -------------------------------------------------- |
-| Landing                | Logo, buscador, botón "Reservar", tarjetas     | ¿El usuario ve el buscador antes que las tarjetas? |
-| Menú                   | Filtros, nombre de producto, precio, alérgenos | ¿Se fija en alérgenos sin que se lo indiquen?      |
-| Detalle de restaurante | Horario, dirección, botón reserva, mapa        | ¿El CTA de reserva es visible sin scroll?          |
-
-**Tareas de navegación para Eye Tracking** (mismas que Bloque 1, T1-T2):
-
-- "Encuentra un restaurante" — captura en Landing
-- "Busca un plato" — captura en Menú
 
 ---
 
@@ -624,11 +605,17 @@ Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepc
 - **Recogida de datos:** El usuario rellena el cuestionario al finalizar la prueba del sitio. Asegurarse de que entiende cómo responder (escala 1-5).
 - **Análisis:** Pegar los datos JSON en **[sus.mixality.de](https://sus.mixality.de/)** para el análisis multivariable comparando ambos casos. Consultar también **[sus.tools](https://sus.tools/)** para la valoración numérica y la etiqueta lingüística.
 
+**Enlace al cuestionario**
+Lo encontrarás en el siguiente enlace:
+
+[CUESTIONARIO SUS](https://tally.so/r/ODoODg)
+
 **Datos demográficos** _(rellenar antes de comenzar el cuestionario)_
 
 | Campo           | Respuesta                                |
 | --------------- | ---------------------------------------- |
 | Nombre / Alias  |                                          |
+| Apellidos       |                                          |
 | Sexo            | ☐ H ☐ M ☐ Otro                           |
 | Edad            |                                          |
 | Ocupación       |                                          |
@@ -654,7 +641,9 @@ Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepc
 
 El excel resultado podrá observarse en el siguiente enlace:
 
-### 5.d Resultado del método Eye Tracking
+### 5.d Eye Tracking
+
+Para continuar con el anál
 
 ### 5.e Usability Report de B
 
