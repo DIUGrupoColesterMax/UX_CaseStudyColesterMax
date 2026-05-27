@@ -392,9 +392,108 @@ Un panel dedicado exclusivamente a las promociones vigentes (2x1, Menú del día
 
 ### Paso 4.a Crear app react partiendo de Figma Make
 
-Hemos mejorado la aplicación Goiko Finder implementada con Figma Make en la aplicación anterior, refactorizando el codigo para que se usen correctamente los componentes que se han creado usando React. Puedes encontrar la aplicación en el siguiente enlace:
+Hemos mejorado la aplicación Goiko Finder implementada con Figma Make en la aplicación anterior, refactorizando el codigo para que se usen correctamente los componentes que se han creado usando React. Además, se ha realizado el despliegue mediante la herramienta de publicación de figma, puedes encontrarlo en el siguiente enlace:
 
 [Prototipo final de Goiko Finder](https://visor-fabric-08824324.figma.site)
+
+#### Compoenente ejemplo RestauranteCard
+
+```javascript
+import { MapPin, Clock, Star, Phone, Navigation } from 'lucide-react';
+import Button from './Button';
+
+interface RestauranteCardProps {
+  name: string;
+  distance: string;
+  wait: string;
+  rating: number;
+  img: string;
+  address?: string;
+  phone?: string;
+  onReservar?: () => void;
+  onVerMenu?: () => void;
+  showButtons?: boolean;
+}
+
+export default function RestauranteCard({
+  name,
+  distance,
+  wait,
+  rating,
+  img,
+  address,
+  phone,
+  onReservar,
+  onVerMenu,
+  showButtons = false
+}: RestauranteCardProps) {
+  return (
+    <div className="border-2 border-black hover:border-[#EE2737] transition-all bg-white group">
+      <div className="h-48 overflow-hidden">
+        <img
+          src={img}
+          alt={name}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="p-5">
+        <div className="flex items-start justify-between mb-3">
+          <h3 style={{ fontSize: '1.25rem' }}>{name}</h3>
+          <div className="flex items-center gap-1 bg-black text-white px-3 py-1">
+            <Star className="w-4 h-4 fill-[#BFAE82] text-[#BFAE82]" />
+            <span className="text-sm">{rating}</span>
+          </div>
+        </div>
+
+        <div className="space-y-2 mb-4 text-sm text-gray-600">
+          {address && (
+            <div className="flex items-center gap-2">
+              <MapPin className="w-4 h-4 flex-shrink-0" />
+              <span>{address}</span>
+            </div>
+          )}
+          <div className="flex items-center gap-2">
+            <Navigation className="w-4 h-4 flex-shrink-0" />
+            <span>{distance} de distancia</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Clock className="w-4 h-4 flex-shrink-0" />
+            <span>Tiempo de espera: {wait}</span>
+          </div>
+          {phone && (
+            <div className="flex items-center gap-2">
+              <Phone className="w-4 h-4 flex-shrink-0" />
+              <span>{phone}</span>
+            </div>
+          )}
+        </div>
+
+        {showButtons && (
+          <div className="flex gap-3">
+            <Button
+              variant="primary"
+              size="md"
+              onClick={onReservar}
+              className="flex-1"
+            >
+              RESERVAR
+            </Button>
+            <Button
+              variant="outline"
+              size="md"
+              onClick={onVerMenu}
+              className="flex-1"
+            >
+              VER MENÚ
+            </Button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+```
 
 #### Ejemplo de uso de componente RestauranteCard en la LandingPage
 
