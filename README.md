@@ -556,21 +556,17 @@ La prueba que hemos diseñado para comprobar la usabilidad tanto de nuestro proy
 
 Las tareas a realizar serán las siguientes:
 
-| #   | Tarea                                                   | Éxito si…                            |
-| --- | ------------------------------------------------------- | ------------------------------------ |
-| T1  | "Busca qué hamburguesas tienen disponibles en el menú"  | Visualiza el listado de hamburguesas |
-| T2  | "Busca si tienen hamburguesa con queso sin gluten"      | Encuentra filtro o producto concreto |
-| T3  | "Encuentra los ingredientes de la hamburguesa Mexicana" | Visualiza los ingredientes del plato |
+| #  | Tarea                                                                                           | Éxito si…                                                     |
+| -- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| T1 | "Busca una hamburguesa sin gluten en el menú y anota cuáles son sus ingredientes"               | Identifica un plato sin gluten y visualiza sus ingredientes   |
 
-Almacenando de ellas los siguientes datos:
+Almacenando de ella los siguientes datos:
 
 **Registro por tarea:**
 
 | Tarea | Completada | Ayuda     | Tiempo     | Comentarios |
 | ----- | ---------- | --------- | ---------- | ----------- |
 | T1    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
-| T2    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
-| T3    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
 
 ---
 
@@ -578,18 +574,18 @@ Almacenando de ellas los siguientes datos:
 
 _(✓ = completada · ✗ = no completada · — = no aplica)_
 
-| Usuario  | Caso | T1 Éxito | T1 Tiempo | T2 Éxito | T2 Tiempo | T3 Éxito | T3 Tiempo |
-| -------- | ---- | :------: | :-------: | :------: | :-------: | :------: | :-------: |
-| Jose     | A    |          |           |          |           |          |           |
-| Yeray    | A    |          |           |          |           |          |           |
-| Usuario5 | A    |          |           |          |           |          |           |
-| Ares     | A    |          |           |          |           |          |           |
-| Lucia    | A    |          |           |          |           |          |           |
-| David    | B    |          |           |          |           |          |           |
-| Pablo    | B    |          |           |          |           |          |           |
-| Ares     | B    |          |           |          |           |          |           |
-| Lucia    | B    |          |           |          |           |          |           |
-| Jose     | B    |          |           |          |           |          |           |
+| Usuario  | Caso | T1 Éxito | T1 Tiempo | Comentarios |
+| -------- | ---- | :------: | :-------: | ----------- |
+| Jose     | A    |          |           |             |
+| Yeray    | A    |          |           |             |
+| Usuario5 | A    |          |           |             |
+| Ares     | A    |          |           |             |
+| Lucia    | A    |          |           |             |
+| David    | B    |          |           |             |
+| Pablo    | B    |          |           |             |
+| Ares     | B    |          |           |             |
+| Lucia    | B    |          |           |             |
+| Jose     | B    |          |           |             |
 
 ##### Bloque 2 — Eye Tracking con GazeMapping (5-10 min)
 
