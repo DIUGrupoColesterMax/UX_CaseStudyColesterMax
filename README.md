@@ -525,57 +525,116 @@ export default function RestauranteCard({
 
 ## ![Método UX](img/usability-testing.png)
 
-> > > Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
-> > > Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+El proceso de reclutamiento sigue una estrategia mixta que combina co-evaluación con pruebas de usuarios externos:
+
+- **Co-evaluación (grupo de clase):** Al menos **3 participantes** del grupo evaluarán el **Caso A** (nuestra propuesta). Se coordina durante las sesiones de prácticas.
+- **Usuarios externos:** **7 participantes adicionales** (familiares, amigos o usuarios potenciales) a quienes se aplica el flujo completo: tareas de interacción, **Eye Tracking** y cuestionario **SUS** sobre el caso asignado (A o B).
+
+El objetivo es alcanzar **10 usuarios distintos**, distribuidos en 5 para el Caso A y 5 para el Caso B. Los datos se recogerán con **[Tally.so](https://tally.so/)** (ver apartado 5.c).
+
+Indicar para cada usuario los siguientes datos (de forma anonimizada). Mínimo 4 usuarios: 2 asignados al Caso A y 2 al Caso B:
 
 | Usuarios     | Sexo/Edad | Ocupación  | Exp.TIC | Personalidad | Plataforma | Caso |
 | ------------ | --------- | ---------- | ------- | ------------ | ---------- | ---- |
-| User1's name | H / 18    | Estudiante | Media   | Introvertido | Web.       | A    |
-| User2's name | H / 18    | Estudiante | Media   | Timido       | Web        | A    |
-| User3's name | M / 35    | Abogado    | Baja    | Emocional    | móvil      | B    |
+| User1's name | H / 18    | Estudiante | Media   | Introvertido | Web        | A    |
+| User2's name | H / 18    | Estudiante | Media   | Tímido       | Web        | A    |
+| User3's name | M / 35    | Abogado    | Baja    | Emocional    | Móvil      | B    |
 | User4's name | H / 18    | Estudiante | Media   | Racional     | Web        | B    |
+
+**Protocolos de adaptación:**
+
+- **Muestra reducida:** Si no se alcanzan 10 usuarios independientes, se usará un modelo **intra-sujeto (Within-Subjects)** donde parte de los usuarios evaluarán ambos casos. Aplicar **contrabalanceo**: la mitad prueba primero el Caso A y la otra mitad primero el B para evitar sesgo por fatiga o aprendizaje.
+- **Eye Tracking reducido:** Si hay limitaciones técnicas o temporales, priorizar la prueba para un **mínimo de 3 usuarios clave**. Justificar cualquier reducción en el informe final.
 
 ### 5.b Diseño de las pruebas
 
 ## ![Método UX](img/usability-testing.png)
 
-> > > Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+Las pruebas se organizan en tres bloques que se aplicarán de forma secuencial a cada participante:
+
+1. **Evaluación del sitio real (Caso A o B):** El usuario realiza tareas concretas dadas por el evaluador (ej. buscar un producto, hacer una reserva, consultar el horario). Puede ser supervisada o no supervisada; en ambos casos se registrará si el usuario necesitó ayuda. Duración estimada: 5-10 minutos.
+2. **Eye Tracking con [GazeMapping](https://github.com/mgea/gazemapping):** Sesión de seguimiento ocular sobre las páginas principales del diseño (2-3 páginas rasterizadas con [FireShot](https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=es)). Se definen previamente los **Puntos de Interés (POI)** a analizar (CTAs, logos, menús, etc.) y las tareas de navegación que realizará el usuario.
+3. **Cuestionario SUS:** Administrado al finalizar la interacción (ver apartado 5.c).
 
 ### 5.c Cuestionario SUS
 
 ## ![Método UX](img/Survey.png)
 
-> > > Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-> > > http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-> > > Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
-> > > Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados
+Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepción subjetiva de usabilidad de cada usuario sobre el diseño evaluado (Caso A o B). Pasos:
+
+- **Configuración:** Crear una copia de la plantilla disponible en [Tally.so](https://tally.so/templates/escala-sus-test-de-usabilidad/wAyNNw) y ampliarla con las preguntas demográficas del apartado 5.a.
+- **Recogida de datos:** El usuario rellena el cuestionario al finalizar la prueba del sitio. Asegurarse de que entiende cómo responder (escala 1-5).
+- **Análisis:** Pegar los datos JSON en **[sus.mixality.de](https://sus.mixality.de/)** para el análisis multivariable comparando ambos casos. Consultar también **[sus.tools](https://sus.tools/)** para la valoración numérica y la etiqueta lingüística.
+
+|     | PREGUNTAS                                                                                | 1   | 2   | 3   | 4   | 5   |
+| --- | ---------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- |
+| 1   | Creo que me gustará visitar con frecuencia este website                                  |     |     |     |     |     |
+| 2   | Encontré el website innecesariamente complejo                                            |     |     |     |     |     |
+| 3   | Pensé que era fácil utilizar este website                                                |     |     |     |     |     |
+| 4   | Creo que necesitaría del apoyo de un experto para recorrer el website                    |     |     |     |     |     |
+| 5   | Encontré las funciones del website bastante bien integradas                              |     |     |     |     |     |
+| 6   | Pensé que había demasiada inconsistencia en el website                                   |     |     |     |     |     |
+| 7   | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website |     |     |     |     |     |
+| 8   | Encontré el website muy grande al recorrerlo                                             |     |     |     |     |     |
+| 9   | Me sentí muy confiado en el manejo del website                                           |     |     |     |     |     |
+| 10  | Necesito aprender muchas cosas antes de manejarse en el website                          |     |     |     |     |     |
+
+Adjuntar en la carpeta P5/ el excel resultante y describir la valoración personal de los resultados obtenidos. Más información sobre la [metodología SUS](http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/).
 
 ### 5.d A/B Testing
 
 ## ![Método UX](img/ABtesting.png)
 
-> > > Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+Se realizará un **estudio entre-sujetos (Between-Subjects Study)** comparando nuestra propuesta (**Caso A**) con la solución de otro equipo (**Caso B**). Los datos recogidos permiten obtener:
+
+1. **Datos demográficos** para caracterizar la población del estudio.
+2. **Métricas de uso y comportamiento**, combinando la interacción real con datos biométricos de Eye Tracking.
+3. **Percepción subjetiva**, mediante el cuestionario SUS administrado al finalizar cada prueba.
+
+El análisis final se realizará con un **análisis SUS multivariable** usando [sus.mixality.de](https://sus.mixality.de/) para comparar ambas soluciones y concluir cuál es más usable (Caso A o B), aportando los resultados en tabla de al menos 3 pruebas × 2 casos con resultado agregado global.
 
 ### 5.e Aplicación del método Eye Tracking
 
 ## ![Método UX](img/eye-tracking.png)
 
-> > > Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+Se utilizará [**GazeMapping**](https://github.com/mgea/gazemapping) para el seguimiento ocular sobre elementos visuales estáticos del diseño. Se aplica **únicamente al Caso B**. El proceso a seguir:
+
+- **Instalación local de GazeMapping** para organizar el contenido a muestrear.
+- **Rasterizar el diseño:** Capturar 2-3 páginas principales del Caso B como imágenes usando la extensión [FireShot](https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=es).
+- **Definir Puntos de Interés (POI):** Marcar los elementos clave a analizar (CTAs, logos, menús, formularios, etc.).
+- **Redactar tareas** que el usuario debe realizar durante la sesión (ej. navegación libre, localizar un CTA, encontrar el logo...).
+- **Obtener el mapa de calor (heatmap)** y extraer conclusiones sobre la jerarquía visual y la atención del usuario.
+
+Si hay limitaciones técnicas, se pueden usar alternativas como [Gaze Recorder](https://gazerecorder.com/) o [RealEye](https://www.realeye.io/es) (versión de pruebas limitada a 3 usuarios para generar heatmap).
 
 ![experimento](img/experimentoET.png)
 
-> > > Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/
-
-> > > gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione)
+> Sustituir esta imagen por una captura del experimento propio. El recurso debe subirse a la carpeta P5/.
 
 ### 5.f Usability Report de B
 
 ## ![Método UX](img/usability-report.png)
 
-> > > Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad.
-> > > Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
+Usar la **plantilla** [Usability-report-template](https://github.com/mgea/UX_CaseStudy/blob/master/P5/Usability-Report-template.md) para elaborar el informe de usabilidad del **Caso B**, siguiendo esta estructura:
 
-> > > Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
+- **Resumen ejecutivo** (Executive Summary)
+- **Metodología y Reclutamiento**
+- **Resultados del Cuestionario SUS** (Datos Cuantitativos)
+- **Análisis de Eye Tracking** (Datos Biométricos)
+- **Auditoría de Accesibilidad:** Evaluación WCAG 2.1/2.2 nivel AA (norma UNE-EN 301549) con herramientas automáticas como **Lighthouse** y **WAVE**, clasificando al menos 2-3 problemas identificados en las 4 categorías:
+
+| **Categoría**    | **Qué analizar**                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------- |
+| **Perceptible**  | Contraste de colores, texto alternativo en imágenes (`alt`), subtítulos.              |
+| **Operable**     | Navegación por teclado, tiempo suficiente para leer, evitar destellos.                |
+| **Comprensible** | Idioma de la página definido, formularios claros, errores fáciles de corregir.        |
+| **Robusto**      | Código limpio (HTML válido) para que los lectores de pantalla funcionen correctamente. |
+
+- **Conclusiones y Recomendaciones** (Actionable Insights)
+
+El informe se publicará en la carpeta P5/ del repositorio con el siguiente nombre: `P4_UsabReport_{practB}_doneby_{grupo}_{nombre_equipo}`, de forma que el equipo B pueda acceder a él.
+
+Complementar el Case Study con una valoración personal del equipo sobre esta tarea.
 
 <br>
 
