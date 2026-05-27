@@ -532,8 +532,8 @@ El proceso de reclutamiento sigue una estrategia mixta que combina co-evaluació
 | -------- | --------- | ---------- | ------- | --------- | ---- | -------- |
 | Jose     | H / 21    | Estudiante | Alta    | Compañero | A    | Gafas    |
 | Yeray    | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
-| Ares     | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
-| Lucia    | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Ares     | M / 19    | Estudiante | Media   | Pareja    | A    | Gafas    |
+| Lucia    | M / 19    | Estudiante | Media   | Pareja    | A    | Gafas    |
 | Usuario5 | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
 | David    | H / 22    | Estudiante | Alta    | Creador   | B    | Correcta |
 | Pablo    | H / 21    | Estudiante | Alta    | Creador   | B    | Correcta |
@@ -554,13 +554,15 @@ La prueba que hemos diseñado para comprobar la usabilidad tanto de nuestro proy
 
 ##### Bloque 1 — Evaluación del sitio (5-10 min)
 
-Evaluador lee las tareas en voz alta. Registrar: tiempo, si el usuario necesitó ayuda (Sí/No) y errores cometidos.
+Las tareas a realizar serán las siguientes:
 
 | #   | Tarea                                                       | Éxito si…                            |
 | --- | ----------------------------------------------------------- | ------------------------------------ |
 | T1  | "Encuentra el restaurante Goiko más cercano a tu ubicación" | Llega a la info del restaurante      |
 | T2  | "Busca si tienen hamburguesa con queso sin gluten"          | Encuentra filtro o producto concreto |
 | T3  | "Consulta el horario del restaurante de [ciudad]"           | Visualiza horario correctamente      |
+
+Almacenando de ellas los siguientes datos:
 
 **Registro por tarea:**
 
@@ -571,6 +573,23 @@ Evaluador lee las tareas en voz alta. Registrar: tiempo, si el usuario necesitó
 | T3    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
 
 ---
+
+###### Resultados del bloque 1
+
+_(✓ = completada · ✗ = no completada · A = necesitó ayuda · — = no aplica)_
+
+| Usuario  | Caso | T1 Éxito | T1 Ayuda | T1 Tiempo | T2 Éxito | T2 Ayuda | T2 Tiempo | T3 Éxito | T3 Ayuda | T3 Tiempo |
+| -------- | ---- | :------: | :------: | :-------: | :------: | :------: | :-------: | :------: | :------: | :-------: |
+| Jose     | A    |          |          |           |          |          |           |          |          |           |
+| Yeray    | A    |          |          |           |          |          |           |          |          |           |
+| Usuario5 | A    |          |          |           |          |          |           |          |          |           |
+| Ares     | A    |          |          |           |          |          |           |          |          |           |
+| Lucia    | A    |          |          |           |          |          |           |          |          |           |
+| David    | B    |          |          |           |          |          |           |          |          |           |
+| Pablo    | B    |          |          |           |          |          |           |          |          |           |
+| Ares     | B    |          |          |           |          |          |           |          |          |           |
+| Lucia    | B    |          |          |           |          |          |           |          |          |           |
+| Jose     | B    |          |          |           |          |          |           |          |          |           |
 
 ##### Bloque 2 — Eye Tracking con GazeMapping (5-10 min)
 
