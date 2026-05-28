@@ -558,7 +558,7 @@ Las tareas a realizar serán las siguientes:
 
 | #  | Tarea                                                                                           | Éxito si…                                                     |
 | -- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| T1 | "Busca una hamburguesa sin gluten en el menú y anota cuáles son sus ingredientes"               | Identifica un plato sin gluten y visualiza sus ingredientes   |
+| T1 | "Busca una hamburguesa sin huevo en el menú y anota cuáles son sus ingredientes"               | Identifica un plato sin gluten y visualiza sus ingredientes   |
 
 Almacenando de ella los siguientes datos:
 
