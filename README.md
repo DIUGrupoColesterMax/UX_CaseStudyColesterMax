@@ -564,9 +564,9 @@ Almacenando de ella los siguientes datos:
 
 **Registro por tarea:**
 
-| Tarea | Completada | Ayuda     | Tiempo     | Comentarios |
-| ----- | ---------- | --------- | ---------- | ----------- |
-| T1    | ☐ Sí ☐ No  | ☐ Sí ☐ No | \_\_\_ seg |             |
+| Tarea | Completada | Tiempo     | Comentarios |
+| ----- | ---------- | ---------- | ----------- |
+| T1    | ☐ Sí ☐ No  | \_\_\_ seg |             |
 
 ---
 
@@ -574,26 +574,24 @@ Almacenando de ella los siguientes datos:
 
 _(✓ = completada · ✗ = no completada · — = no aplica)_
 
-| Usuario     | Caso | T1 Éxito | T1 Tiempo | Comentarios                                                                       |
-| ----------- | ---- | :------: | :-------: | --------------------------------------------------------------------------------- |
-| Fernando    | A    | ✓        | 20.96 seg | Web completa, buen diseño, se puede filtrar                                       |
-| Yeray       | A    | ✓        | 30.3 seg  | No ha visto correctamente el enlace para ver todas las hamburguesas               |
-| Pablo DLTR  | A    | ✓        | 46.36 seg | Ha intentado ir a los restaurantes en vez de bajar a ver las hamburguesas         |
-| Ares        | A    | ✓        | 14.45 seg | Ninguna                                                                           |
-| Lucia       | A    | ✓        | 31.30 seg | Pensaba que si pinchaba en la hamburguesa podía verla pero no                     |
-| David       | B    | ✓        | 12.13 seg | No hay vista previa de la hamburguesa, únicamente se describen los ingredientes   |
-| Pablo       | B    | —        | —         | —                                                                                 |
-| Ares        | B    | ✓        | 16.01 seg | Ninguna                                                                           |
-| Lucia       | B    | ✓        | 21.92 seg | No están especificados los alérgenos, tenía que leerlo todo                       |
-| Fernando    | B    | ✓        | 13.71 seg | Poca información y escaso contenido                                               |
+| Usuario    | Caso | T1 Éxito | T1 Tiempo | Comentarios                                                                     |
+| ---------- | ---- | :------: | :-------: | ------------------------------------------------------------------------------- |
+| Fernando   | A    |    ✓     | 20.96 seg | Web completa, buen diseño, se puede filtrar                                     |
+| Yeray      | A    |    ✓     | 30.3 seg  | No ha visto correctamente el enlace para ver todas las hamburguesas             |
+| Pablo DLTR | A    |    ✓     | 46.36 seg | Ha intentado ir a los restaurantes en vez de bajar a ver las hamburguesas       |
+| Ares       | A    |    ✓     | 14.45 seg | Ninguna                                                                         |
+| Lucia      | A    |    ✓     | 31.30 seg | Pensaba que si pinchaba en la hamburguesa podía verla pero no                   |
+| David      | B    |    ✓     | 12.13 seg | No hay vista previa de la hamburguesa, únicamente se describen los ingredientes |
+| Pablo      | B    |    —     |     —     | —                                                                               |
+| Ares       | B    |    ✓     | 16.01 seg | Ninguna                                                                         |
+| Lucia      | B    |    ✓     | 21.92 seg | No están especificados los alérgenos, tenía que leerlo todo                     |
+| Fernando   | B    |    ✓     | 13.71 seg | Poca información y escaso contenido                                             |
 
 ##### Bloque 2 — Eye Tracking con GazeMapping (5-10 min)
 
 ---
 
 ### 5.c Cuestionario SUS
-
-## ![Método UX](img/Survey.png)
 
 Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepción subjetiva de usabilidad de cada usuario sobre el diseño evaluado (Caso A o B). Pasos:
 
@@ -676,7 +674,7 @@ _Pendiente de recoger datos reales. Rellenar con los valores exportados de [sus.
 | Usuario          | Caso | Puntuación SUS | Etiqueta |
 | ---------------- | ---- | :------------: | -------- |
 | David            | B    |                |          |
-| Pablo            | B    | —              | —        |
+| Pablo            | B    |       —        | —        |
 | Ares             | B    |                |          |
 | Lucia            | B    |                |          |
 | Fernando         | B    |                |          |
@@ -694,62 +692,62 @@ Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre dos páginas: **Ho
 
 ##### 4.1 Home (Página Principal)
 
-| Usuario | Heatmap |
-| ------- | ------- |
+| Usuario | Heatmap                                                                                  |
+| ------- | ---------------------------------------------------------------------------------------- |
 | David   | ![Heatmap Principal David](P5/EyeTracking/David/Heatmap%20-%20principal%20-%20David.png) |
-| Jose    | ![Heatmap Principal Jose](P5/EyeTracking/Jose/HeatMap%20-%20Principal%20-%20Jose.png) |
+| Jose    | ![Heatmap Principal Jose](P5/EyeTracking/Jose/HeatMap%20-%20Principal%20-%20Jose.png)    |
 | Pablo   | ![Heatmap Principal Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Principal%20-%20Pablo.png) |
 
 **Hallazgos Home:**
 
-| POI | Observación real |
-| --- | ---------------- |
-| Barra de navegación superior | **Hotspot en los 3 usuarios.** Primera zona de fijación. "La Carta" y "Eventos" son los ítems más leídos antes de mirar los círculos. |
-| Círculos LA CARTA y EVENTOS (fila superior) | Alta atención en los 3. Jerarquía visual arriba-abajo funciona correctamente. |
-| Círculos ALÉRGENOS y RESERVAS (fila inferior) | Fijación secundaria y más tardía. Reciben menos atención que los superiores en todos los usuarios. |
-| GALERÍA (columna derecha) | **Zona de silencio total** en los 3 usuarios. Ninguno fijó la mirada en las fotos de la galería. |
-| Panel RESEÑAS (columna izquierda) | Atención ocasional sobre la reseña activa, pero no sistemática. El texto truncado y el efecto blur no invitan a leer. |
-| CTA "RESERVAR" (nav, extremo derecho) | Escasa fijación a pesar del bold. Compite en atención con los círculos centrales y pierde. |
+| POI                                           | Observación real                                                                                                                      |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Barra de navegación superior                  | **Hotspot en los 3 usuarios.** Primera zona de fijación. "La Carta" y "Eventos" son los ítems más leídos antes de mirar los círculos. |
+| Círculos LA CARTA y EVENTOS (fila superior)   | Alta atención en los 3. Jerarquía visual arriba-abajo funciona correctamente.                                                         |
+| Círculos ALÉRGENOS y RESERVAS (fila inferior) | Fijación secundaria y más tardía. Reciben menos atención que los superiores en todos los usuarios.                                    |
+| GALERÍA (columna derecha)                     | **Zona de silencio total** en los 3 usuarios. Ninguno fijó la mirada en las fotos de la galería.                                      |
+| Panel RESEÑAS (columna izquierda)             | Atención ocasional sobre la reseña activa, pero no sistemática. El texto truncado y el efecto blur no invitan a leer.                 |
+| CTA "RESERVAR" (nav, extremo derecho)         | Escasa fijación a pesar del bold. Compite en atención con los círculos centrales y pierde.                                            |
 
 ---
 
 ##### 4.2 La Carta
 
-| Usuario | Heatmap |
-| ------- | ------- |
+| Usuario | Heatmap                                                                          |
+| ------- | -------------------------------------------------------------------------------- |
 | David   | ![Heatmap Carta David](P5/EyeTracking/David/Heatmap%20-%20carta%20-%20David.png) |
-| Jose    | ![Heatmap Carta Jose](P5/EyeTracking/Jose/Heatmap%20-%20Carta%20-%20Jose.png) |
+| Jose    | ![Heatmap Carta Jose](P5/EyeTracking/Jose/Heatmap%20-%20Carta%20-%20Jose.png)    |
 | Pablo   | ![Heatmap Carta Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Carta%20-%20Pablo.png) |
 
 **Hallazgos La Carta:**
 
-| POI | Observación real |
-| --- | ---------------- |
-| Hero "LA CARTA" (banner superior) | **Hotspot intenso** en los 3. Primera zona de fijación — el título y la imagen de fondo absorben la mayor parte de la atención inicial. |
-| Círculo PRINCIPALES | Alta fijación. Es el primer círculo de categoría al que van los usuarios antes de explorar los demás. |
+| POI                                 | Observación real                                                                                                                                             |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Hero "LA CARTA" (banner superior)   | **Hotspot intenso** en los 3. Primera zona de fijación — el título y la imagen de fondo absorben la mayor parte de la atención inicial.                      |
+| Círculo PRINCIPALES                 | Alta fijación. Es el primer círculo de categoría al que van los usuarios antes de explorar los demás.                                                        |
 | Círculo ALÉRGENOS (último, derecha) | **El menos atendido en 2 de 3 usuarios.** Solo Pablo registra fijación notable. Confirma que la información de alérgenos no es descubierta de forma natural. |
-| Sección de platos PRINCIPALES | Atención moderada sobre los nombres y precios. Los ingredientes en texto pequeño se leen poco. |
-| CTA "RESERVAR →" (hero, derecha) | Fijación moderada en Jose y Pablo. David prácticamente lo ignora. |
+| Sección de platos PRINCIPALES       | Atención moderada sobre los nombres y precios. Los ingredientes en texto pequeño se leen poco.                                                               |
+| CTA "RESERVAR →" (hero, derecha)    | Fijación moderada en Jose y Pablo. David prácticamente lo ignora.                                                                                            |
 
 ---
 
 ##### 4.3 Eventos
 
-| Usuario | Heatmap |
-| ------- | ------- |
-| David   | ![Heatmap Eventos David](P5/EyeTracking/David/Heatmap%20-%20eventos%20-%20David.png) |
-| Jose    | ![Heatmap Eventos Jose](P5/EyeTracking/Jose/Heatmap%20-%20Eventos%20-%20Jose.png) |
+| Usuario | Heatmap                                                                                    |
+| ------- | ------------------------------------------------------------------------------------------ |
+| David   | ![Heatmap Eventos David](P5/EyeTracking/David/Heatmap%20-%20eventos%20-%20David.png)       |
+| Jose    | ![Heatmap Eventos Jose](P5/EyeTracking/Jose/Heatmap%20-%20Eventos%20-%20Jose.png)          |
 | Pablo   | ![Heatmap Eventos Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Eventos%20-%20%20%20Pablo.png) |
 
 **Hallazgos Eventos:**
 
-| POI | Observación real |
-| --- | ---------------- |
-| Sección "NUESTRAS CELEBRACIONES" | **Hotspot dominante en los 3 usuarios**, especialmente Jose (zona roja intensa sobre el texto). Mayor engagement de toda la página. |
-| Sección "NUESTROS FOODTRUCKS" | Significativamente menos atendida. El patrón vertical de lectura se agota antes de llegar al final de la página. |
-| Fotos de evento — panel derecho | **Zona de silencio en los 3 usuarios.** Las imágenes rectangulares de la sección celebraciones no atraen la mirada. |
-| Imagen circular food truck (derecha) | Fijación escasa. El formato circular no compensa la poca atención que llega a la sección inferior. |
-| Footer "Contáctanos" / "Preguntas Frecuentes" | Fijaciones inesperadas en 2 de 3 usuarios — buscan info de contacto que no encuentran fácilmente en la nav principal. |
+| POI                                           | Observación real                                                                                                                    |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Sección "NUESTRAS CELEBRACIONES"              | **Hotspot dominante en los 3 usuarios**, especialmente Jose (zona roja intensa sobre el texto). Mayor engagement de toda la página. |
+| Sección "NUESTROS FOODTRUCKS"                 | Significativamente menos atendida. El patrón vertical de lectura se agota antes de llegar al final de la página.                    |
+| Fotos de evento — panel derecho               | **Zona de silencio en los 3 usuarios.** Las imágenes rectangulares de la sección celebraciones no atraen la mirada.                 |
+| Imagen circular food truck (derecha)          | Fijación escasa. El formato circular no compensa la poca atención que llega a la sección inferior.                                  |
+| Footer "Contáctanos" / "Preguntas Frecuentes" | Fijaciones inesperadas en 2 de 3 usuarios — buscan info de contacto que no encuentran fácilmente en la nav principal.               |
 
 ---
 
@@ -767,15 +765,15 @@ Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre dos páginas: **Ho
 
 #### 6. Conclusiones y Recomendaciones
 
-| **Prioridad** | **Hallazgo**                                                                                      | **Recomendación de Mejora**                                                                                      |
-| ------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Alta**      | `lang="en"` en HTML con contenido en español — rompe accesibilidad con lectores de pantalla       | Cambiar a `lang="es"` en el `<html>`.                                                                            |
-| **Alta**      | Alérgenos no integrados en la carta — el usuario debe ir a sección separada (Lucia B, David B)    | Añadir iconos/etiquetas de alérgenos junto a cada plato dentro de La Carta.                                      |
-| **Alta**      | Sin detalle ni imagen por hamburguesa — solo texto de ingredientes (David B)                      | Crear página de detalle por plato con foto, ingredientes, precio y etiquetas de alérgenos.                       |
-| **Media**     | Navegación duplicada — La Carta y Eventos aparecen en nav bar Y en círculos de home               | Eliminar la redundancia: usar los círculos como destacados visuales, no como navegación secundaria.              |
-| **Media**     | Alérgenos y Reservas en círculos de home pero ausentes de la barra de navegación principal        | Añadir "Alérgenos" al menú de navegación para garantizar acceso consistente desde cualquier página.              |
-| **Baja**      | Panel de reseñas con texto truncado y efecto blur — dificulta lectura sin interacción previa      | Mostrar al menos una reseña completa por defecto sin blur.                                                       |
-| **Baja**      | Contenido escaso en la web general (Fernando B)                                                   | Ampliar sección "Acerca de" con historia del restaurante, valores y equipo para dar confianza al usuario.        |
+| **Prioridad** | **Hallazgo**                                                                                   | **Recomendación de Mejora**                                                                               |
+| ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Alta**      | `lang="en"` en HTML con contenido en español — rompe accesibilidad con lectores de pantalla    | Cambiar a `lang="es"` en el `<html>`.                                                                     |
+| **Alta**      | Alérgenos no integrados en la carta — el usuario debe ir a sección separada (Lucia B, David B) | Añadir iconos/etiquetas de alérgenos junto a cada plato dentro de La Carta.                               |
+| **Alta**      | Sin detalle ni imagen por hamburguesa — solo texto de ingredientes (David B)                   | Crear página de detalle por plato con foto, ingredientes, precio y etiquetas de alérgenos.                |
+| **Media**     | Navegación duplicada — La Carta y Eventos aparecen en nav bar Y en círculos de home            | Eliminar la redundancia: usar los círculos como destacados visuales, no como navegación secundaria.       |
+| **Media**     | Alérgenos y Reservas en círculos de home pero ausentes de la barra de navegación principal     | Añadir "Alérgenos" al menú de navegación para garantizar acceso consistente desde cualquier página.       |
+| **Baja**      | Panel de reseñas con texto truncado y efecto blur — dificulta lectura sin interacción previa   | Mostrar al menos una reseña completa por defecto sin blur.                                                |
+| **Baja**      | Contenido escaso en la web general (Fernando B)                                                | Ampliar sección "Acerca de" con historia del restaurante, valores y equipo para dar confianza al usuario. |
 
 <br>
 
