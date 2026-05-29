@@ -396,7 +396,7 @@ Hemos mejorado la aplicación Goiko Finder implementada con Figma Make en la apl
 
 [Prototipo final de Goiko Finder](https://visor-fabric-08824324.figma.site)
 
-#### Compoenente ejemplo RestauranteCard
+#### Componente ejemplo RestauranteCard
 
 ```javascript
 import { MapPin, Clock, Star, Phone, Navigation } from 'lucide-react';
@@ -528,18 +528,18 @@ El proceso de reclutamiento sigue una estrategia mixta que combina co-evaluació
 - **Co-evaluación (grupo de clase):** Al menos **3 participantes** del grupo evaluarán el **Caso A** (nuestra propuesta). Se coordina durante las sesiones de prácticas.
 - **Usuarios externos:** **7 participantes adicionales** (familiares, amigos o usuarios potenciales) a quienes se aplica el flujo completo: tareas de interacción, **Eye Tracking** y cuestionario **SUS** sobre el caso asignado (A o B).
 
-| Usuarios | Sexo/Edad | Ocupación  | Exp.TIC | Relación  | Caso | Visión   |
-| -------- | --------- | ---------- | ------- | --------- | ---- | -------- |
-| Jose     | H / 21    | Estudiante | Alta    | Compañero | A    | Gafas    |
-| Yeray    | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
-| Ares     | M / 19    | Estudiante | Media   | Pareja    | A    | Gafas    |
-| Lucia    | M / 19    | Estudiante | Media   | Pareja    | A    | Gafas    |
-| Usuario5 | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
-| David    | H / 22    | Estudiante | Alta    | Creador   | B    | Correcta |
-| Pablo    | H / 21    | Estudiante | Alta    | Creador   | B    | Correcta |
-| Ares     | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
-| Lucia    | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
-| Jose     | H / 21    | Estudiante | Alta    | Compañero | B    | Gafas    |
+| Usuarios   | Sexo/Edad | Ocupación  | Exp.TIC | Relación  | Caso | Visión   |
+| ---------- | --------- | ---------- | ------- | --------- | ---- | -------- |
+| Fernando   | H / 22    | Estudiante | Alta    | Compañero | A    | Gafas    |
+| Yeray      | H / 20    | Estudiante | Alta    | Compañero | A    | Gafas    |
+| Ares       | M / 19    | Estudiante | Media   | Pareja    | A    | Gafas    |
+| Lucia      | M / 19    | Estudiante | Media   | Pareja    | A    | Gafas    |
+| Pablo DLTR | H / 20    | Estudiante | Alta    | Compañero | A    | Correcta |
+| David      | H / 22    | Estudiante | Alta    | Creador   | B    | Correcta |
+| Pablo      | H / 21    | Estudiante | Alta    | Creador   | B    | Correcta |
+| Ares       | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Lucia      | M / 19    | Estudiante | Media   | Pareja    | B    | Gafas    |
+| Fernando   | H / 22    | Estudiante | Alta    | Compañero | B    | Gafas    |
 
 ### 5.b Diseño de las pruebas
 
@@ -552,13 +552,13 @@ La prueba que hemos diseñado para comprobar la usabilidad tanto de nuestro proy
 
 ---
 
-##### Bloque 1 — Evaluación del sitio (5-10 min)
+##### Bloque 1 — Evaluación del sitio
 
 Las tareas a realizar serán las siguientes:
 
-| #  | Tarea                                                                                           | Éxito si…                                                     |
-| -- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| T1 | "Busca una hamburguesa sin huevo en el menú y anota cuáles son sus ingredientes"               | Identifica un plato sin huevo y visualiza sus ingredientes   |
+| #   | Tarea                                                                            | Éxito si…                                                  |
+| --- | -------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| T1  | "Busca una hamburguesa sin huevo en el menú y anota cuáles son sus ingredientes" | Identifica un plato sin huevo y visualiza sus ingredientes |
 
 Almacenando de ella los siguientes datos:
 
@@ -574,18 +574,18 @@ Almacenando de ella los siguientes datos:
 
 _(✓ = completada · ✗ = no completada · — = no aplica)_
 
-| Usuario  | Caso | T1 Éxito | T1 Tiempo | Comentarios |
-| -------- | ---- | :------: | :-------: | ----------- |
-| Jose     | A    |          |           |             |
-| Yeray    | A    |          |           |             |
-| Usuario5 | A    |          |           |             |
-| Ares     | A    |          |           |             |
-| Lucia    | A    |          |           |             |
-| David    | B    |          |           |             |
-| Pablo    | B    |          |           |             |
-| Ares     | B    |          |           |             |
-| Lucia    | B    |          |           |             |
-| Jose     | B    |          |           |             |
+| Usuario     | Caso | T1 Éxito | T1 Tiempo | Comentarios                                                                       |
+| ----------- | ---- | :------: | :-------: | --------------------------------------------------------------------------------- |
+| Fernando    | A    | ✓        | 20.96 seg | Web completa, buen diseño, se puede filtrar                                       |
+| Yeray       | A    | ✓        | 30.3 seg  | No ha visto correctamente el enlace para ver todas las hamburguesas               |
+| Pablo DLTR  | A    | ✓        | 46.36 seg | Ha intentado ir a los restaurantes en vez de bajar a ver las hamburguesas         |
+| Ares        | A    | ✓        | 14.45 seg | Ninguna                                                                           |
+| Lucia       | A    | ✓        | 31.30 seg | Pensaba que si pinchaba en la hamburguesa podía verla pero no                     |
+| David       | B    | ✓        | 12.13 seg | No hay vista previa de la hamburguesa, únicamente se describen los ingredientes   |
+| Pablo       | B    | —        | —         | —                                                                                 |
+| Ares        | B    | ✓        | 16.01 seg | Ninguna                                                                           |
+| Lucia       | B    | ✓        | 21.92 seg | No están especificados los alérgenos, tenía que leerlo todo                       |
+| Fernando    | B    | ✓        | 13.71 seg | Poca información y escaso contenido                                               |
 
 ##### Bloque 2 — Eye Tracking con GazeMapping (5-10 min)
 
@@ -639,32 +639,143 @@ El excel resultado podrá observarse en el siguiente enlace:
 
 ### 5.d Eye Tracking
 
-Para continuar con el anál
+Para continuar con el análisis del Caso B, utilizaremos la aplicación de GazeMapping para analizar los mapas de calor de las distintas paginas de la web:
 
 ### 5.e Usability Report de B
 
-## ![Método UX](img/usability-report.png)
+#### Evaluación de usabilidad del proyecto AL Burguers
 
-Usar la **plantilla** [Usability-report-template](https://github.com/mgea/UX_CaseStudy/blob/master/P5/Usability-Report-template.md) para elaborar el informe de usabilidad del **Caso B**, siguiendo esta estructura:
+[29/05/2026]
 
-- **Resumen ejecutivo** (Executive Summary)
-- **Metodología y Reclutamiento**
-- **Resultados del Cuestionario SUS** (Datos Cuantitativos)
-- **Análisis de Eye Tracking** (Datos Biométricos)
-- **Auditoría de Accesibilidad:** Evaluación WCAG 2.1/2.2 nivel AA (norma UNE-EN 301549) con herramientas automáticas como **Lighthouse** y **WAVE**, clasificando al menos 2-3 problemas identificados en las 4 categorías:
+![Icono AL](img/iconoAL.png)
 
-| **Categoría**    | **Qué analizar**                                                                       |
-| ---------------- | -------------------------------------------------------------------------------------- |
-| **Perceptible**  | Contraste de colores, texto alternativo en imágenes (`alt`), subtítulos.               |
-| **Operable**     | Navegación por teclado, tiempo suficiente para leer, evitar destellos.                 |
-| **Comprensible** | Idioma de la página definido, formularios claros, errores fáciles de corregir.         |
-| **Robusto**      | Código limpio (HTML válido) para que los lectores de pantalla funcionen correctamente. |
+![Enlace a GITHUB del proyecto](https://github.com/xGeaa/UX_CaseStudy)
 
-- **Conclusiones y Recomendaciones** (Actionable Insights)
+Realizado por: Goiko Finder
 
-El informe se publicará en la carpeta P5/ del repositorio con el siguiente nombre: `P4_UsabReport_{practB}_doneby_{grupo}_{nombre_equipo}`, de forma que el equipo B pueda acceder a él.
+#### 1. Resumen Ejecutivo
 
-Complementar el Case Study con una valoración personal del equipo sobre esta tarea.
+- **Objetivo:** Evaluar la usabilidad de AL Burguers (Caso B) en el marco del A/B Testing frente a Goiko Finder (Caso A), identificando fortalezas y barreras de uso reales.
+- **Metodología:** Tarea supervisada T1 (_"Busca una hamburguesa sin gluten y anota sus ingredientes"_) + Eye Tracking con GazeMapping + cuestionario SUS.
+- **Principales Hallazgos:**
+  1. **Sin alérgenos integrados en la carta:** los usuarios deben navegar a una sección separada para ver alérgenos, en lugar de verlos junto a cada plato. Lucia (B): _"No están especificados los alérgenos, tenía que leerlo todo"_.
+  2. **Sin detalle ni imagen por hamburguesa:** los platos solo muestran ingredientes en texto; no hay página de detalle ni foto individual. David (B): _"No hay vista previa de la hamburguesa, únicamente se describen los ingredientes"_.
+  3. **Contenido escaso:** la web transmite poca información general sobre el restaurante. Fernando (B): _"Poca información y escaso contenido"_.
+- **Resultado Global:** Caso B completa la tarea con éxito en todos los usuarios evaluados (excepto Pablo, sin dato). Tiempo medio Caso B: **15.9 seg** vs. **28.7 seg** Caso A — AL Burguers es más rápido en la tarea, pero con menor profundidad de contenido. Puntuación SUS: pendiente de análisis (ver sección 3).
+
+#### 2. Metodología y Reclutamiento
+
+- **Perfil de los participantes:** 10 usuarios en total (5 Caso A, 4 datos válidos Caso B). Edad media 20-22 años, todos estudiantes universitarios, nivel TIC mayoritariamente alto. Todos los participantes del Caso B llevan gafas o lentillas (relevante para la calibración de Eye Tracking).
+- **Escenario de la prueba:** Tarea única T1 — _"Busca una hamburguesa sin gluten en el menú y anota cuáles son sus ingredientes"_. Flujo esperado en Caso B: Home → círculo ALÉRGENOS o La Carta → ALÉRGENOS → identificar plato sin gluten → volver a La Carta → localizar ingredientes.
+- **Herramientas:** GazeMapping + FireShot para Eye Tracking, cuestionario SUS vía Tally.so, registro manual de tiempo de tarea y observaciones del evaluador.
+
+#### 3. Resultados del Cuestionario SUS
+
+_Pendiente de recoger datos reales. Rellenar con los valores exportados de [sus.mixality.de](https://sus.mixality.de/)._
+
+| Usuario          | Caso | Puntuación SUS | Etiqueta |
+| ---------------- | ---- | :------------: | -------- |
+| David            | B    |                |          |
+| Pablo            | B    | —              | —        |
+| Ares             | B    |                |          |
+| Lucia            | B    |                |          |
+| Fernando         | B    |                |          |
+| **Media Caso B** |      |                |          |
+| **Media Caso A** |      |                |          |
+
+- **Comparativa A vs. B:** Adjuntar gráfico exportado de [sus.mixality.de](https://sus.mixality.de/).
+- **Ítems a vigilar:** Alta puntuación esperada en ítem 3 (_"fácil de utilizar"_, tiempo medio 15.9 seg). Baja en ítem 5 (_"funciones bien integradas"_) por la separación de alérgenos y sin detalle por plato.
+
+#### 4. Análisis de Eye Tracking
+
+Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre dos páginas: **Home** y **La Carta**. Capturas rasterizadas con FireShot y analizadas con GazeMapping.
+
+---
+
+##### 4.1 Home (Página Principal)
+
+| Usuario | Heatmap |
+| ------- | ------- |
+| David   | ![Heatmap Principal David](P5/EyeTracking/David/Heatmap%20-%20principal%20-%20David.png) |
+| Jose    | ![Heatmap Principal Jose](P5/EyeTracking/Jose/HeatMap%20-%20Principal%20-%20Jose.png) |
+| Pablo   | ![Heatmap Principal Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Principal%20-%20Pablo.png) |
+
+**Hallazgos Home:**
+
+| POI | Observación real |
+| --- | ---------------- |
+| Barra de navegación superior | **Hotspot en los 3 usuarios.** Primera zona de fijación. "La Carta" y "Eventos" son los ítems más leídos antes de mirar los círculos. |
+| Círculos LA CARTA y EVENTOS (fila superior) | Alta atención en los 3. Jerarquía visual arriba-abajo funciona correctamente. |
+| Círculos ALÉRGENOS y RESERVAS (fila inferior) | Fijación secundaria y más tardía. Reciben menos atención que los superiores en todos los usuarios. |
+| GALERÍA (columna derecha) | **Zona de silencio total** en los 3 usuarios. Ninguno fijó la mirada en las fotos de la galería. |
+| Panel RESEÑAS (columna izquierda) | Atención ocasional sobre la reseña activa, pero no sistemática. El texto truncado y el efecto blur no invitan a leer. |
+| CTA "RESERVAR" (nav, extremo derecho) | Escasa fijación a pesar del bold. Compite en atención con los círculos centrales y pierde. |
+
+---
+
+##### 4.2 La Carta
+
+| Usuario | Heatmap |
+| ------- | ------- |
+| David   | ![Heatmap Carta David](P5/EyeTracking/David/Heatmap%20-%20carta%20-%20David.png) |
+| Jose    | ![Heatmap Carta Jose](P5/EyeTracking/Jose/Heatmap%20-%20Carta%20-%20Jose.png) |
+| Pablo   | ![Heatmap Carta Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Carta%20-%20Pablo.png) |
+
+**Hallazgos La Carta:**
+
+| POI | Observación real |
+| --- | ---------------- |
+| Hero "LA CARTA" (banner superior) | **Hotspot intenso** en los 3. Primera zona de fijación — el título y la imagen de fondo absorben la mayor parte de la atención inicial. |
+| Círculo PRINCIPALES | Alta fijación. Es el primer círculo de categoría al que van los usuarios antes de explorar los demás. |
+| Círculo ALÉRGENOS (último, derecha) | **El menos atendido en 2 de 3 usuarios.** Solo Pablo registra fijación notable. Confirma que la información de alérgenos no es descubierta de forma natural. |
+| Sección de platos PRINCIPALES | Atención moderada sobre los nombres y precios. Los ingredientes en texto pequeño se leen poco. |
+| CTA "RESERVAR →" (hero, derecha) | Fijación moderada en Jose y Pablo. David prácticamente lo ignora. |
+
+---
+
+##### 4.3 Eventos
+
+| Usuario | Heatmap |
+| ------- | ------- |
+| David   | ![Heatmap Eventos David](P5/EyeTracking/David/Heatmap%20-%20eventos%20-%20David.png) |
+| Jose    | ![Heatmap Eventos Jose](P5/EyeTracking/Jose/Heatmap%20-%20Eventos%20-%20Jose.png) |
+| Pablo   | ![Heatmap Eventos Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Eventos%20-%20%20%20Pablo.png) |
+
+**Hallazgos Eventos:**
+
+| POI | Observación real |
+| --- | ---------------- |
+| Sección "NUESTRAS CELEBRACIONES" | **Hotspot dominante en los 3 usuarios**, especialmente Jose (zona roja intensa sobre el texto). Mayor engagement de toda la página. |
+| Sección "NUESTROS FOODTRUCKS" | Significativamente menos atendida. El patrón vertical de lectura se agota antes de llegar al final de la página. |
+| Fotos de evento — panel derecho | **Zona de silencio en los 3 usuarios.** Las imágenes rectangulares de la sección celebraciones no atraen la mirada. |
+| Imagen circular food truck (derecha) | Fijación escasa. El formato circular no compensa la poca atención que llega a la sección inferior. |
+| Footer "Contáctanos" / "Preguntas Frecuentes" | Fijaciones inesperadas en 2 de 3 usuarios — buscan info de contacto que no encuentran fácilmente en la nav principal. |
+
+---
+
+##### 4.4 Hallazgo clave
+
+> **El 100% de los usuarios ignoró la GALERÍA** en la Home. El círculo ALÉRGENOS en La Carta fue ignorado por 2 de 3 usuarios, lo que explica los tiempos más altos en T1 y el comentario de Lucia B: _"tenía que leerlo todo"_. La sección FOODTRUCKS es ignorada por la mayoría — el contenido clave debe subir en la jerarquía de página.
+
+#### 5. Auditoría de Accesibilidad
+
+- **`lang` incorrecto:** HTML declara `lang="en"` pero todo el contenido está en español. Los lectores de pantalla pronunciarán el texto con fonética inglesa. **Corrección:** `<html lang="es">`.
+- **Texto blanco sobre imágenes circulares:** Los botones LA CARTA, EVENTOS, ALÉRGENOS, RESERVAS usan texto blanco sobre fotografías de fondo variable. El contraste no está garantizado y puede no superar WCAG AA (4.5:1). Añadir overlay oscuro fijo o sombra de texto.
+- **Imágenes sin `alt` descriptivo:** Las fotos de galería y los círculos usan imágenes de fondo CSS o stock sin texto alternativo accesible para lectores de pantalla.
+- **Navegación por teclado:** No verificada. Las SPA en React pueden generar trampas de foco si los círculos no tienen `role="button"` y `tabIndex`. Pendiente de prueba con Tab.
+- **Puntuación Lighthouse:** Pendiente. Ejecutar desde DevTools → Lighthouse → Accessibility y adjuntar captura en P5/.
+
+#### 6. Conclusiones y Recomendaciones
+
+| **Prioridad** | **Hallazgo**                                                                                      | **Recomendación de Mejora**                                                                                      |
+| ------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Alta**      | `lang="en"` en HTML con contenido en español — rompe accesibilidad con lectores de pantalla       | Cambiar a `lang="es"` en el `<html>`.                                                                            |
+| **Alta**      | Alérgenos no integrados en la carta — el usuario debe ir a sección separada (Lucia B, David B)    | Añadir iconos/etiquetas de alérgenos junto a cada plato dentro de La Carta.                                      |
+| **Alta**      | Sin detalle ni imagen por hamburguesa — solo texto de ingredientes (David B)                      | Crear página de detalle por plato con foto, ingredientes, precio y etiquetas de alérgenos.                       |
+| **Media**     | Navegación duplicada — La Carta y Eventos aparecen en nav bar Y en círculos de home               | Eliminar la redundancia: usar los círculos como destacados visuales, no como navegación secundaria.              |
+| **Media**     | Alérgenos y Reservas en círculos de home pero ausentes de la barra de navegación principal        | Añadir "Alérgenos" al menú de navegación para garantizar acceso consistente desde cualquier página.              |
+| **Baja**      | Panel de reseñas con texto truncado y efecto blur — dificulta lectura sin interacción previa      | Mostrar al menos una reseña completa por defecto sin blur.                                                       |
+| **Baja**      | Contenido escaso en la web general (Fernando B)                                                   | Ampliar sección "Acerca de" con historia del restaurante, valores y equipo para dar confianza al usuario.        |
 
 <br>
 
