@@ -1,4 +1,4 @@
-### 5.e Usability Report de B
+### Usability Report Goiko FInder. Análisis Caso B: AL Burguers
 
 #### Evaluación de usabilidad del proyecto AL Burguers
 
