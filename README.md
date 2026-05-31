@@ -582,7 +582,7 @@ _(✓ = completada · ✗ = no completada · — = no aplica)_
 | Ares       | A    |    ✓     | 14.45 seg | Ninguna                                                                         |
 | Lucia      | A    |    ✓     | 31.30 seg | Pensaba que si pinchaba en la hamburguesa podía verla pero no                   |
 | David      | B    |    ✓     | 12.13 seg | No hay vista previa de la hamburguesa, únicamente se describen los ingredientes |
-| Pablo      | B    |    —     |     —     | —                                                                               |
+| Pablo      | B    |    ✓     | 11.32 seg | Sin vista previa y poca información de las hamburguesas                         |
 | Ares       | B    |    ✓     | 16.01 seg | Ninguna                                                                         |
 | Lucia      | B    |    ✓     | 21.92 seg | No están especificados los alérgenos, tenía que leerlo todo                     |
 | Fernando   | B    |    ✓     | 13.71 seg | Poca información y escaso contenido                                             |
@@ -658,7 +658,7 @@ Realizado por: Goiko Finder
   1. **Sin alérgenos integrados en la carta:** los usuarios deben navegar a una sección separada para ver alérgenos, en lugar de verlos junto a cada plato. Lucia (B): _"No están especificados los alérgenos, tenía que leerlo todo"_.
   2. **Sin detalle ni imagen por hamburguesa:** los platos solo muestran ingredientes en texto; no hay página de detalle ni foto individual. David (B): _"No hay vista previa de la hamburguesa, únicamente se describen los ingredientes"_.
   3. **Contenido escaso:** la web transmite poca información general sobre el restaurante. Fernando (B): _"Poca información y escaso contenido"_.
-- **Resultado Global:** Caso B completa la tarea con éxito en todos los usuarios evaluados (excepto Pablo, sin dato). Tiempo medio Caso B: **15.9 seg** vs. **28.7 seg** Caso A — AL Burguers es más rápido en la tarea, pero con menor profundidad de contenido. Puntuación SUS: pendiente de análisis (ver sección 3).
+- **Resultado Global:** Caso B completa la tarea con éxito en los 5 usuarios evaluados. Tiempo medio Caso B: **15.0 seg** vs. **28.7 seg** Caso A — AL Burguers es más rápido en la tarea, pero con menor profundidad de contenido. Puntuación SUS: pendiente de análisis (ver sección 3).
 
 #### 2. Metodología y Reclutamiento
 
@@ -673,7 +673,7 @@ _Pendiente de recoger datos reales. Rellenar con los valores exportados de [sus.
 | Usuario          | Caso | Puntuación SUS | Etiqueta |
 | ---------------- | ---- | :------------: | -------- |
 | David            | B    |                |          |
-| Pablo            | B    |       —        | —        |
+| Pablo            | B    |                |          |
 | Ares             | B    |                |          |
 | Lucia            | B    |                |          |
 | Fernando         | B    |                |          |
@@ -689,7 +689,7 @@ _Pendiente de recoger datos reales. Rellenar con los valores exportados de [sus.
 
 #### 4. Análisis de Eye Tracking
 
-Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre dos páginas: **Home** y **La Carta**. Capturas rasterizadas con FireShot y analizadas con GazeMapping.
+Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre tres páginas: **Home**, **La Carta** y **Eventos**. Capturas rasterizadas con FireShot y analizadas con GazeMapping.
 
 ---
 
