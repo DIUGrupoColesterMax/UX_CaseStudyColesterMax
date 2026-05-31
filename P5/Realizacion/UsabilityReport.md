@@ -4,9 +4,9 @@
 
 [29/05/2026]
 
-![Icono AL](img/iconoAL.png)
+![Icono AL](../../img/iconoAL.png)
 
-![Enlace a GITHUB del proyecto](https://github.com/xGeaa/UX_CaseStudy)
+[Enlace a GITHUB del proyecto](https://github.com/xGeaa/UX_CaseStudy)
 
 Realizado por: Goiko Finder
 
@@ -45,19 +45,19 @@ Realizado por: Goiko Finder
 
 **Comparativa A vs. B — distribución de scores (box plot):**
 
-![Box Plot SUS](P5/Realizacion/plot.png)
+![Box Plot SUS](plot.png)
 
 **Posición percentil:**
 
-![Percentil SUS](<P5/Realizacion/plot (1).png>)
+![Percentil SUS](<plot (1).png>)
 
 Ambos casos en **percentil ~96-97** — por encima del 95% de sistemas evaluados con SUS.
 
 **Desglose por ítem:**
 
-![Barras por pregunta](<P5/Realizacion/plot (2).png>)
+![Barras por pregunta](<plot (2).png>)
 
-![Radar comparativo](<P5/Realizacion/plot (3).png>)
+![Radar comparativo](<plot (3).png>)
 
 - **Q1** (visitar con frecuencia): A(9.0) > B(7.0) — Goiko Finder genera más intención de revisita.
 - **Q2** (complejidad): B(9.5) > A(8.5) — AL Burguers percibido como más simple.
@@ -75,9 +75,9 @@ Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre tres páginas: **H
 
 | Usuario | Heatmap                                                                                  |
 | ------- | ---------------------------------------------------------------------------------------- |
-| David   | ![Heatmap Principal David](P5/EyeTracking/David/Heatmap%20-%20principal%20-%20David.png) |
-| Jose    | ![Heatmap Principal Jose](P5/EyeTracking/Jose/HeatMap%20-%20Principal%20-%20Jose.png)    |
-| Pablo   | ![Heatmap Principal Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Principal%20-%20Pablo.png) |
+| David   | ![Heatmap Principal David](../EyeTracking/David/Heatmap%20-%20principal%20-%20David.png) |
+| Jose    | ![Heatmap Principal Jose](../EyeTracking/Jose/HeatMap%20-%20Principal%20-%20Jose.png)    |
+| Pablo   | ![Heatmap Principal Pablo](../EyeTracking/Pablo/Heatmap%20-%20Principal%20-%20Pablo.png) |
 
 **Hallazgos Home:**
 
@@ -96,9 +96,9 @@ Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre tres páginas: **H
 
 | Usuario | Heatmap                                                                          |
 | ------- | -------------------------------------------------------------------------------- |
-| David   | ![Heatmap Carta David](P5/EyeTracking/David/Heatmap%20-%20carta%20-%20David.png) |
-| Jose    | ![Heatmap Carta Jose](P5/EyeTracking/Jose/Heatmap%20-%20Carta%20-%20Jose.png)    |
-| Pablo   | ![Heatmap Carta Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Carta%20-%20Pablo.png) |
+| David   | ![Heatmap Carta David](../EyeTracking/David/Heatmap%20-%20carta%20-%20David.png) |
+| Jose    | ![Heatmap Carta Jose](../EyeTracking/Jose/Heatmap%20-%20Carta%20-%20Jose.png)    |
+| Pablo   | ![Heatmap Carta Pablo](../EyeTracking/Pablo/Heatmap%20-%20Carta%20-%20Pablo.png) |
 
 **Hallazgos La Carta:**
 
@@ -116,9 +116,9 @@ Sesiones realizadas con 3 usuarios (David, Jose, Pablo) sobre tres páginas: **H
 
 | Usuario | Heatmap                                                                                    |
 | ------- | ------------------------------------------------------------------------------------------ |
-| David   | ![Heatmap Eventos David](P5/EyeTracking/David/Heatmap%20-%20eventos%20-%20David.png)       |
-| Jose    | ![Heatmap Eventos Jose](P5/EyeTracking/Jose/Heatmap%20-%20Eventos%20-%20Jose.png)          |
-| Pablo   | ![Heatmap Eventos Pablo](P5/EyeTracking/Pablo/Heatmap%20-%20Eventos%20-%20%20%20Pablo.png) |
+| David   | ![Heatmap Eventos David](../EyeTracking/David/Heatmap%20-%20eventos%20-%20David.png)       |
+| Jose    | ![Heatmap Eventos Jose](../EyeTracking/Jose/Heatmap%20-%20Eventos%20-%20Jose.png)          |
+| Pablo   | ![Heatmap Eventos Pablo](../EyeTracking/Pablo/Heatmap%20-%20Eventos%20-%20%20%20Pablo.png) |
 
 **Hallazgos Eventos:**
 
