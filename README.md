@@ -593,16 +593,18 @@ _(✓ = completada · ✗ = no completada · — = no aplica)_
 
 ### 5.c Cuestionario SUS
 
-Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepción subjetiva de usabilidad de cada usuario sobre el diseño evaluado (Caso A o B). Pasos:
-
-- **Configuración:** Crear una copia de la plantilla disponible en [Tally.so](https://tally.so/templates/escala-sus-test-de-usabilidad/wAyNNw) y ampliarla con las preguntas demográficas del apartado 5.a.
-- **Recogida de datos:** El usuario rellena el cuestionario al finalizar la prueba del sitio. Asegurarse de que entiende cómo responder (escala 1-5).
-- **Análisis:** Pegar los datos JSON en **[sus.mixality.de](https://sus.mixality.de/)** para el análisis multivariable comparando ambos casos. Consultar también **[sus.tools](https://sus.tools/)** para la valoración numérica y la etiqueta lingüística.
+Se usará el **Cuestionario SUS (System Usability Scale)** para medir la percepción subjetiva de usabilidad de cada usuario sobre el diseño evaluado (Caso A o B).
 
 **Enlace al cuestionario**
 Lo encontrarás en el siguiente enlace:
 
 [CUESTIONARIO SUS](https://tally.so/r/ODoODg)
+
+**Resultados del cuestionario**
+Los encontraras en los siguientes archivos:
+[Resultados csv](P5/Realizacion/ResultadoSUS-FormatoCorrecto.csv)
+
+[Resultados json](P5/Realizacion/ResultadosSUS.json)
 
 **Datos demográficos** _(rellenar antes de comenzar el cuestionario)_
 
@@ -658,7 +660,7 @@ Realizado por: Goiko Finder
   1. **Sin alérgenos integrados en la carta:** los usuarios deben navegar a una sección separada para ver alérgenos, en lugar de verlos junto a cada plato. Lucia (B): _"No están especificados los alérgenos, tenía que leerlo todo"_.
   2. **Sin detalle ni imagen por hamburguesa:** los platos solo muestran ingredientes en texto; no hay página de detalle ni foto individual. David (B): _"No hay vista previa de la hamburguesa, únicamente se describen los ingredientes"_.
   3. **Contenido escaso:** la web transmite poca información general sobre el restaurante. Fernando (B): _"Poca información y escaso contenido"_.
-- **Resultado Global:** Caso B completa la tarea con éxito en los 5 usuarios evaluados. Tiempo medio Caso B: **15.0 seg** vs. **28.7 seg** Caso A — AL Burguers es más rápido en la tarea, pero con menor profundidad de contenido. Puntuación SUS: pendiente de análisis (ver sección 3).
+- **Resultado Global:** Caso B completa la tarea con éxito en los 5 usuarios. Tiempo medio Caso B: **15.0 seg** vs. **28.7 seg** Caso A. Puntuación SUS media: **Caso A (Goiko Finder) = 89.0** · **Caso B (AL Burguers) = 87.0** — ambos en categoría **Best Imaginable** (>85). Goiko Finder supera por 2 puntos, con ventaja en integración de funciones (Q5) y confianza de uso (Q9).
 
 #### 2. Metodología y Reclutamiento
 
@@ -668,24 +670,42 @@ Realizado por: Goiko Finder
 
 #### 3. Resultados del Cuestionario SUS
 
-_Pendiente de recoger datos reales. Rellenar con los valores exportados de [sus.mixality.de](https://sus.mixality.de/)._
+| Usuario     | Caso | Puntuación SUS | Etiqueta            |
+| ----------- | ---- | :------------: | ------------------- |
+| Fernando    | A    |      87.5      | Best Imaginable     |
+| Yeray       | A    |      87.5      | Best Imaginable     |
+| Ares        | A    |      92.5      | Best Imaginable     |
+| Lucia       | A    |      95.0      | Best Imaginable     |
+| Pablo DLTR  | A    |      82.5      | Excellent           |
+| **Media A** |      |    **89.0**    | **Best Imaginable** |
+| David       | B    |      90.0      | Best Imaginable     |
+| Pablo       | B    |      87.5      | Best Imaginable     |
+| Ares        | B    |      82.5      | Excellent           |
+| Lucia       | B    |      87.5      | Best Imaginable     |
+| Fernando    | B    |      87.5      | Best Imaginable     |
+| **Media B** |      |    **87.0**    | **Best Imaginable** |
 
-| Usuario          | Caso | Puntuación SUS | Etiqueta |
-| ---------------- | ---- | :------------: | -------- |
-| David            | B    |                |          |
-| Pablo            | B    |                |          |
-| Ares             | B    |                |          |
-| Lucia            | B    |                |          |
-| Fernando         | B    |                |          |
-| **Media Caso B** |      |                |          |
-| **Media Caso A** |      |                |          |
+**Comparativa A vs. B — distribución de scores (box plot):**
 
-- **Comparativa A vs. B:**
-  ![Grafico 1](/P5/Realizacion/plot.png)
-  ![Grafico 2](<P5/Realizacion/plot (1).png>)
-  ![Grafico 3](<P5/Realizacion/plot (2).png>)
-  ![Grafico 4](<P5/Realizacion/plot (3).png>)
-- **Ítems a vigilar:** Alta puntuación esperada en ítem 3 (_"fácil de utilizar"_, tiempo medio 15.9 seg). Baja en ítem 5 (_"funciones bien integradas"_) por la separación de alérgenos y sin detalle por plato.
+![Box Plot SUS](P5/Realizacion/plot.png)
+
+**Posición percentil:**
+
+![Percentil SUS](<P5/Realizacion/plot (1).png>)
+
+Ambos casos en **percentil ~96-97** — por encima del 95% de sistemas evaluados con SUS.
+
+**Desglose por ítem:**
+
+![Barras por pregunta](<P5/Realizacion/plot (2).png>)
+
+![Radar comparativo](<P5/Realizacion/plot (3).png>)
+
+- **Q1** (visitar con frecuencia): A(9.0) > B(7.0) — Goiko Finder genera más intención de revisita.
+- **Q2** (complejidad): B(9.5) > A(8.5) — AL Burguers percibido como más simple.
+- **Q5** (funciones integradas): A(9.0) > B(7.5) — confirma la queja de alérgenos no integrados en carta.
+- **Q8** (demasiado grande): B(10.0) > A(8.0) — AL Burguers no se percibe como excesivo; Goiko Finder con más contenido roza la sensación de amplitud.
+- **Q9** (confianza en el manejo): A(8.0) > B(6.5) — **peor puntuación de B en todo el cuestionario**, coherente con _"poca información"_ y _"sin vista previa"_.
 
 #### 4. Análisis de Eye Tracking
 
