@@ -680,7 +680,11 @@ _Pendiente de recoger datos reales. Rellenar con los valores exportados de [sus.
 | **Media Caso B** |      |                |          |
 | **Media Caso A** |      |                |          |
 
-- **Comparativa A vs. B:** Adjuntar gráfico exportado de [sus.mixality.de](https://sus.mixality.de/).
+- **Comparativa A vs. B:** 
+![Grafico 1](/P5/Realizacion/plot.png)
+![Grafico 2](/P5/Realizacion/plot%20(1).png.png)
+![Grafico 3](/P5/Realizacion/plot%20(2).pngt.png)
+![Grafico 4](/P5/Realizacion/plot%20(3).png.png)
 - **Ítems a vigilar:** Alta puntuación esperada en ítem 3 (_"fácil de utilizar"_, tiempo medio 15.9 seg). Baja en ítem 5 (_"funciones bien integradas"_) por la separación de alérgenos y sin detalle por plato.
 
 #### 4. Análisis de Eye Tracking
