@@ -608,8 +608,7 @@ Lo encontrarás en el siguiente enlace:
 
 | Campo           | Respuesta                                |
 | --------------- | ---------------------------------------- |
-| Nombre / Alias  |                                          |
-| Apellidos       |                                          |
+| ID Usuario      |                                          |
 | Sexo            | ☐ H ☐ M ☐ Otro                           |
 | Edad            |                                          |
 | Ocupación       |                                          |
